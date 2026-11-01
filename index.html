@@ -120,6 +120,26 @@
             </div>
           </div>
 
+          <!-- 상단 핵심 조작 바 (이전곡 / 힌트보기 / 정답확인 / 다음곡) -->
+          <div class="top-quiz-controls">
+            <button id="prevBtn" type="button" class="nav-btn top-nav-btn" title="이전 문제로 이동 (단축키: ←)">
+              ← 이전 곡
+            </button>
+            <div class="action-buttons-row top-action-buttons">
+              <button id="hintBtn" type="button" class="btn btn-hint" title="단계별 힌트 보기 (단축키: H)">
+                <span class="btn-icon">💡</span>
+                <span id="hintBtnText">1차 힌트 보기 (연도·앨범·결정적 가사)</span>
+              </button>
+              <button id="answerBtn" type="button" class="btn btn-answer" title="정답 확인 (단축키: Space)">
+                <span class="btn-icon">🎯</span>
+                <span id="answerBtnText">정답 확인 (가수 + 노래제목)</span>
+              </button>
+            </div>
+            <button id="nextBtn" type="button" class="nav-btn nav-btn-primary top-nav-btn" title="다음 문제로 이동 (단축키: →)">
+              다음 곡 →
+            </button>
+          </div>
+
           <!-- 앨범 아트워크 & LP 바이닐 플레이어 쇼케이스 -->
           <div class="player-showcase">
             <div class="vinyl-stage" id="vinylStage">
@@ -290,23 +310,8 @@
           </div>
         </section>
 
-        <!-- 메인 액션 버튼 영역 (단계별 힌트 보기 / 정답 확인) -->
-        <div class="action-buttons-row">
-          <button id="hintBtn" type="button" class="btn btn-hint">
-            <span class="btn-icon">💡</span>
-            <span id="hintBtnText">1차 힌트 보기 (연도·앨범·결정적 가사)</span>
-          </button>
-          <button id="answerBtn" type="button" class="btn btn-answer">
-            <span class="btn-icon">🎯</span>
-            <span id="answerBtnText">정답 확인 (가수 + 노래제목)</span>
-          </button>
-        </div>
-
-        <!-- 이전 / 다음 문제 네비게이션 및 보조 토글 -->
+        <!-- 하단 보조 옵션 토글 바 -->
         <footer class="card-footer-nav">
-          <button id="prevBtn" type="button" class="nav-btn">
-            ← 이전 곡
-          </button>
           <div class="quiz-options-group">
             <label class="toggle-label" title="문제 이동 시 선택한 구간(예: 클라이막스 5초)을 자동으로 재생합니다">
               <input type="checkbox" id="autoPlayToggle" checked />
@@ -317,9 +322,6 @@
               <span>카테고리 배지 표시</span>
             </label>
           </div>
-          <button id="nextBtn" type="button" class="nav-btn nav-btn-primary">
-            다음 곡 →
-          </button>
         </footer>
       </article>
     </main>
