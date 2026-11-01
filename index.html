@@ -120,12 +120,10 @@
             </div>
           </div>
 
-          <!-- 상단 핵심 조작 바 (이전곡 / 힌트보기 / 정답확인 / 다음곡) -->
+          <!-- 상단 핵심 조작 바 (2열 2행 대칭 그리드: 1행 힌트/정답, 2행 이전/다음) -->
           <div class="top-quiz-controls">
-            <button id="prevBtn" type="button" class="nav-btn top-nav-btn" title="이전 문제로 이동 (단축키: ←)">
-              ← 이전 곡
-            </button>
-            <div class="action-buttons-row top-action-buttons">
+            <!-- 1행: 메인 퀴즈 조작 (50% : 50%) -->
+            <div class="quiz-action-row">
               <button id="hintBtn" type="button" class="btn btn-hint" title="단계별 힌트 보기 (단축키: H)">
                 <span class="btn-icon">💡</span>
                 <span id="hintBtnText">1차 힌트 보기 (연도·앨범·결정적 가사)</span>
@@ -135,9 +133,16 @@
                 <span id="answerBtnText">정답 확인 (가수 + 노래제목)</span>
               </button>
             </div>
-            <button id="nextBtn" type="button" class="nav-btn nav-btn-primary top-nav-btn" title="다음 문제로 이동 (단축키: →)">
-              다음 곡 →
-            </button>
+
+            <!-- 2행: 트랙 넘김 네비게이션 (50% : 50%) -->
+            <div class="quiz-nav-row">
+              <button id="prevBtn" type="button" class="nav-btn top-nav-btn" title="이전 문제로 이동 (단축키: ←)">
+                ← 이전 곡
+              </button>
+              <button id="nextBtn" type="button" class="nav-btn nav-btn-primary top-nav-btn" title="다음 문제로 이동 (단축키: →)">
+                다음 곡 →
+              </button>
+            </div>
           </div>
 
           <!-- 앨범 아트워크 & LP 바이닐 플레이어 쇼케이스 -->
