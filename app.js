@@ -98,8 +98,6 @@ const markCorrectBtn = document.getElementById('markCorrectBtn');
 
 const prevBtn = document.getElementById('prevBtn');
 const nextBtn = document.getElementById('nextBtn');
-const autoPlayToggle = document.getElementById('autoPlayToggle');
-const showCategoryToggle = document.getElementById('showCategoryToggle');
 
 const shuffleBtn = document.getElementById('shuffleBtn');
 const listOpenBtn = document.getElementById('listOpenBtn');
@@ -504,13 +502,8 @@ function renderDualLetterSlots() {
 function updateCategoryBadge() {
   if (deck.length === 0) return;
   const song = deck[currentIndex];
-  if (showCategoryToggle.checked || isAnswerRevealed) {
-    categoryBadgeEl.textContent = `🎵 ${song.category}`;
-    categoryBadgeEl.classList.remove('muted');
-  } else {
-    categoryBadgeEl.textContent = '🎵 카테고리 비공개';
-    categoryBadgeEl.classList.add('muted');
-  }
+  categoryBadgeEl.textContent = `🎵 ${song.category}`;
+  categoryBadgeEl.classList.remove('muted');
 }
 
 function updateHintStepUI() {
@@ -538,7 +531,7 @@ function updateHintStepUI() {
   }
 }
 
-async function renderCurrentSong() {
+async function renderCurrentSong(autoPlay = false) {
   if (deck.length === 0) return;
   const song = deck[currentIndex];
   stopAudioPlayback(true, false);
@@ -580,8 +573,8 @@ async function renderCurrentSong() {
   syncSolvedButtonState(song.id);
   preloadNextSongInDeck();
 
-  // 자동 재생이 켜져 있으면 바로 노래 재생
-  if (autoPlayToggle.checked) {
+  // 맨 처음 문제 및 리셋 시에는 대기, 문제 이동(prev/next) 시에만 자동 재생
+  if (autoPlay) {
     playAudio(true);
   } else {
     ensureSongAudioReady(song).then(() => {
@@ -675,7 +668,7 @@ function toggleMarkCorrect() {
 function goToPrevSong() {
   if (deck.length === 0) return;
   currentIndex = (currentIndex - 1 + deck.length) % deck.length;
-  renderCurrentSong();
+  renderCurrentSong(true);
 }
 
 function goToNextSong() {
@@ -686,7 +679,7 @@ function goToNextSong() {
     return;
   }
   currentIndex = (currentIndex + 1) % deck.length;
-  renderCurrentSong();
+  renderCurrentSong(true);
 }
 
 function openQuizResultModal() {
@@ -915,7 +908,6 @@ answerBtn.addEventListener('click', () => handleRevealAnswer(false));
 prevBtn.addEventListener('click', goToPrevSong);
 nextBtn.addEventListener('click', goToNextSong);
 markCorrectBtn.addEventListener('click', toggleMarkCorrect);
-showCategoryToggle.addEventListener('change', updateCategoryBadge);
 
 shuffleBtn.addEventListener('click', () => {
   deck = shuffleArray(deck);
