@@ -1408,7 +1408,7 @@ const RAW_SONGS = [
   },
   {
     "id": "idol-5",
-    "category": "인기 아이돌",
+    "category": "르세라핌",
     "artist": "르세라핌",
     "artistEn": "LE SSERAFIM",
     "artistAliases": [
@@ -1435,7 +1435,7 @@ const RAW_SONGS = [
   },
   {
     "id": "idol-6",
-    "category": "인기 아이돌",
+    "category": "르세라핌",
     "artist": "르세라핌",
     "artistEn": "LE SSERAFIM",
     "artistAliases": [
@@ -1461,7 +1461,7 @@ const RAW_SONGS = [
   },
   {
     "id": "idol-7",
-    "category": "인기 아이돌",
+    "category": "르세라핌",
     "artist": "르세라핌",
     "artistEn": "LE SSERAFIM",
     "artistAliases": [
@@ -2181,10 +2181,3026 @@ const RAW_SONGS = [
     "itunesTrackId": 1785637238,
     "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b0/29/da/b029da0d-f3cd-231a-dabc-0704776df26f/mzaf_4183191705776683622.plus.aac.p.m4a",
     "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8c/03/16/8c03163b-065d-5f3c-ba55-73c4603a3c05/198704289064_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "lesserafim-101",
+    "category": "르세라핌",
+    "artist": "르세라핌",
+    "artistEn": "LE SSERAFIM",
+    "artistAliases": [
+      "르세라핌",
+      "LE SSERAFIM"
+    ],
+    "title": "ANTIFRAGILE",
+    "titleEn": "ANTIFRAGILE",
+    "titleAliases": [
+      "ANTIFRAGILE",
+      "안티프래자일"
+    ],
+    "koreanRead": "안티프래자일",
+    "releaseYear": "2022",
+    "album": "ANTIFRAGILE - EP",
+    "lyricHint": "가시밭길 위로 riding, you made me boost up / 다시 타올라",
+    "trivia": "시련을 겪을수록 더 단단해진다는 메시지를 아프로라틴 리듬에 담아낸 메가 히트곡입니다.",
+    "itunesQuery": "르세라핌 ANTIFRAGILE",
+    "itunesTrackId": 1647830390,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9c/5b/33/9c5b33cb-f6c0-1cf5-61c4-ac465bce2b7b/mzaf_16974808219393622487.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c8/79/da/c879dadf-db1e-95a5-caf5-b18c7c81d2b6/192641874413_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "lesserafim-102",
+    "category": "르세라핌",
+    "artist": "르세라핌",
+    "artistEn": "LE SSERAFIM",
+    "artistAliases": [
+      "르세라핌",
+      "LE SSERAFIM"
+    ],
+    "title": "EASY",
+    "titleEn": "EASY",
+    "titleAliases": [
+      "EASY",
+      "이지"
+    ],
+    "koreanRead": "이지",
+    "releaseYear": "2024",
+    "album": "EASY - EP",
+    "lyricHint": "쉽지 않음 내가 쉽게 easy / 날 수면 아래로 던져",
+    "trivia": "트랩 힙합 장르를 매끄럽게 소화하며 르세라핌의 깊어진 내면과 노력을 담아낸 타이틀곡입니다.",
+    "itunesQuery": "르세라핌 EASY",
+    "itunesTrackId": 1728928754,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/19/f6/98/19f6985f-4633-0de9-6529-22e9c84e31be/mzaf_2983769807683393748.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/0f/fd/220ffdbf-152c-5b65-d5af-01256c1328c2/196922796531_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "lesserafim-103",
+    "category": "르세라핌",
+    "artist": "르세라핌",
+    "artistEn": "LE SSERAFIM",
+    "artistAliases": [
+      "르세라핌",
+      "LE SSERAFIM"
+    ],
+    "title": "UNFORGIVEN",
+    "titleEn": "UNFORGIVEN (feat. Nile Rodgers)",
+    "titleAliases": [
+      "UNFORGIVEN",
+      "언포기븐"
+    ],
+    "koreanRead": "언포기븐",
+    "releaseYear": "2023",
+    "album": "UNFORGIVEN",
+    "lyricHint": "Unforgiven, I'm a villain, I'm a / 새 시대로 기억될 unforgiven",
+    "trivia": "나일 로저스의 기타 피처링과 서부 영화 테마가 어우러진 정규 1집 타이틀곡입니다.",
+    "itunesQuery": "르세라핌 UNFORGIVEN",
+    "itunesTrackId": 1682502472,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/05/0c/fd050c13-7a38-55fd-3d97-ca5f976915b1/mzaf_9965317674295586639.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/27/13/c3/2713c389-4f01-b5e7-59f5-3204b37cb594/196922444470_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "lesserafim-104",
+    "category": "르세라핌",
+    "artist": "르세라핌",
+    "artistEn": "LE SSERAFIM",
+    "artistAliases": [
+      "르세라핌",
+      "LE SSERAFIM"
+    ],
+    "title": "FEARLESS",
+    "titleEn": "FEARLESS",
+    "titleAliases": [
+      "FEARLESS",
+      "피어리스"
+    ],
+    "koreanRead": "피어리스",
+    "releaseYear": "2022",
+    "album": "FEARLESS - EP",
+    "lyricHint": "내 흉터를 가리기 위한 가면 따윈 벗어던져 / I'm fearless",
+    "trivia": "르세라핌의 화려한 데뷔를 알린 미니 1집 타이틀곡으로 볼드한 베이스 리프가 일품입니다.",
+    "itunesQuery": "르세라핌 FEARLESS",
+    "itunesTrackId": 1621089608,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2e/e8/40/2ee84088-b80c-28bf-c277-9eaeaae0a8d5/mzaf_10950096593083239512.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/77/c9/7f/77c97fcc-e72d-13e9-2e41-d5c23ceb5e43/196922016622_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "lesserafim-105",
+    "category": "르세라핌",
+    "artist": "르세라핌",
+    "artistEn": "LE SSERAFIM",
+    "artistAliases": [
+      "르세라핌",
+      "LE SSERAFIM"
+    ],
+    "title": "이브, 프시케 그리고 푸른 수염의 아내",
+    "titleEn": "Eve, Psyche & The Bluebeard's wife",
+    "titleAliases": [
+      "이브, 프시케 그리고 푸른 수염의 아내",
+      "이프푸",
+      "이브 프시케"
+    ],
+    "koreanRead": "이브 프시케 그리고 푸른 수염의 아내",
+    "releaseYear": "2023",
+    "album": "UNFORGIVEN",
+    "lyricHint": "I'm a mess mess mess in distress / 열려라 참깨",
+    "trivia": "금기를 깨고 나아가겠다는 당돌한 가사와 저지 클럽 리듬으로 챌린지를 강타한 인기곡입니다.",
+    "itunesQuery": "르세라핌 이브, 프시케 그리고 푸른 수염의 아내",
+    "itunesTrackId": 1682502483,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/58/b6/a4/58b6a479-4750-bc36-83ef-dc096e80e512/mzaf_7713972725375701992.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/27/13/c3/2713c389-4f01-b5e7-59f5-3204b37cb594/196922444470_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "lesserafim-107",
+    "category": "르세라핌",
+    "artist": "르세라핌",
+    "artistEn": "LE SSERAFIM",
+    "artistAliases": [
+      "르세라핌",
+      "LE SSERAFIM"
+    ],
+    "title": "Blue Flame",
+    "titleEn": "Blue Flame",
+    "titleAliases": [
+      "Blue Flame",
+      "블루 플레임"
+    ],
+    "koreanRead": "블루 플레임",
+    "releaseYear": "2022",
+    "album": "FEARLESS - EP",
+    "lyricHint": "손끝에 닿은 그 푸른 불꽃 / 더 깊이 빠져들어",
+    "trivia": "멤버 김채원과 허윤진이 작사에 참여한 세련되고 몽환적인 디스코 펑크 팝 트랙입니다.",
+    "itunesQuery": "르세라핌 Blue Flame",
+    "itunesTrackId": 1621089614,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fa/4e/08/fa4e0891-6af1-50b5-ce52-847f10f0667a/mzaf_10390309336838114400.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/77/c9/7f/77c97fcc-e72d-13e9-2e41-d5c23ceb5e43/196922016622_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "lesserafim-108",
+    "category": "르세라핌",
+    "artist": "르세라핌",
+    "artistEn": "LE SSERAFIM",
+    "artistAliases": [
+      "르세라핌",
+      "LE SSERAFIM"
+    ],
+    "title": "Sour Grapes",
+    "titleEn": "Sour Grapes",
+    "titleAliases": [
+      "Sour Grapes",
+      "사워 그레이프"
+    ],
+    "koreanRead": "사워 그레이프",
+    "releaseYear": "2022",
+    "album": "FEARLESS - EP",
+    "lyricHint": "Sour, sour, sour grapes / 달콤하지 않아도 돼",
+    "trivia": "이솝우화 여우와 신포도 이야기에서 착안한 서정적이고 감미로운 R&B 발라드입니다.",
+    "itunesQuery": "르세라핌 Sour Grapes",
+    "itunesTrackId": 1621089856,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/08/b2/df/08b2dfa4-23bc-4992-8ce7-237f7c425135/mzaf_16072233407538250444.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/77/c9/7f/77c97fcc-e72d-13e9-2e41-d5c23ceb5e43/196922016622_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "lesserafim-109",
+    "category": "르세라핌",
+    "artist": "르세라핌",
+    "artistEn": "LE SSERAFIM",
+    "artistAliases": [
+      "르세라핌",
+      "LE SSERAFIM"
+    ],
+    "title": "Good Bones",
+    "titleEn": "Good Bones",
+    "titleAliases": [
+      "Good Bones",
+      "굿 본즈"
+    ],
+    "koreanRead": "굿 본즈",
+    "releaseYear": "2024",
+    "album": "EASY - EP",
+    "lyricHint": "세상이 우리에게만 쉬운 적 있었어? / I'm resilient",
+    "trivia": "강렬한 록 사운드 위에 3개 국어 내레이션이 돋보이는 미니 3집 인트로 명곡입니다.",
+    "itunesQuery": "르세라핌 Good Bones",
+    "itunesTrackId": 1728928731,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/b2/f0/fdb2f0a7-b7d1-17ff-6849-8fda7d5fcbf3/mzaf_18022415058019514275.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/0f/fd/220ffdbf-152c-5b65-d5af-01256c1328c2/196922796531_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "lesserafim-111",
+    "category": "르세라핌",
+    "artist": "르세라핌",
+    "artistEn": "LE SSERAFIM",
+    "artistAliases": [
+      "르세라핌",
+      "LE SSERAFIM"
+    ],
+    "title": "HOT",
+    "titleEn": "HOT",
+    "titleAliases": [
+      "HOT",
+      "핫"
+    ],
+    "koreanRead": "핫",
+    "releaseYear": "2024",
+    "album": "CRAZY - EP",
+    "lyricHint": "Too hot to handle / 불타오르는 열기 속으로",
+    "trivia": "2025~2026 르세라핌 특유의 당당함과 폭발적인 에너지를 담아낸 트랙입니다.",
+    "itunesQuery": "르세라핌 HOT",
+    "itunesTrackId": 1763658330,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d7/98/4a/d7984acc-ec3d-702a-b712-f24a492c380d/mzaf_8154997953251408819.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/38/95/ed/3895ed80-ba5b-7846-ce5b-b49805a818ef/198704101359_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "lesserafim-112",
+    "category": "르세라핌",
+    "artist": "르세라핌",
+    "artistEn": "LE SSERAFIM",
+    "artistAliases": [
+      "르세라핌",
+      "LE SSERAFIM"
+    ],
+    "title": "BOOMPALA",
+    "titleEn": "BOOMPALA",
+    "titleAliases": [
+      "BOOMPALA",
+      "붐팔라"
+    ],
+    "koreanRead": "붐팔라",
+    "releaseYear": "2026",
+    "album": "'PUREFLOW', Pt. 1",
+    "lyricHint": "신나는 비트와 멈출 수 없는 에너지 / BOOMPALA",
+    "trivia": "중독적인 리듬과 신선한 멜로디의 2026년 최신 화제 트랙입니다.",
+    "itunesQuery": "르세라핌 BOOMPALA",
+    "itunesTrackId": 1894802726,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/81/e9/67/81e96793-c88e-5be4-95f2-2c53ae1ef263/mzaf_11198696615091070328.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b8/0c/98/b80c980c-52c6-a180-ff3e-2afaaab75fdd/823375107286_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "rescene-101",
+    "category": "리센느",
+    "artist": "리센느",
+    "artistEn": "RESCENE",
+    "artistAliases": [
+      "리센느",
+      "르센느",
+      "RESCENE"
+    ],
+    "title": "LOVE ATTACK",
+    "titleEn": "LOVE ATTACK",
+    "titleAliases": [
+      "LOVE ATTACK",
+      "러브 어택"
+    ],
+    "koreanRead": "러브 어택",
+    "releaseYear": "2024",
+    "album": "SCENEDROME - EP",
+    "lyricHint": "한순간에 퍼지는 너의 향기 / Love attack",
+    "trivia": "향기를 테마로 한 리센느의 미니 1집 타이틀곡으로 청량한 보컬과 사랑스러운 멜로디가 돋보입니다.",
+    "itunesQuery": "리센느 LOVE ATTACK",
+    "itunesTrackId": 1764485170,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/c5/ec/6ac5ecf5-6e26-e551-0b1d-d9f2fcb253a2/mzaf_18228858557779313654.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/43/0b/4c/430b4c8e-3cb8-da27-648f-435ec3b391a6/8804775334160.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "rescene-102",
+    "category": "리센느",
+    "artist": "리센느",
+    "artistEn": "RESCENE",
+    "artistAliases": [
+      "리센느",
+      "르센느",
+      "RESCENE"
+    ],
+    "title": "YoYo",
+    "titleEn": "YoYo",
+    "titleAliases": [
+      "YoYo",
+      "요요"
+    ],
+    "koreanRead": "요요",
+    "releaseYear": "2024",
+    "album": "Re:Scene - Single",
+    "lyricHint": "되감아봐도 너뿐인 걸 / Yo-yo spinning round",
+    "trivia": "선공개 싱글로 리센느만의 독특하고 몽환적인 음악 세계를 세상에 처음 알린 곡입니다.",
+    "itunesQuery": "리센느 YoYo",
+    "itunesTrackId": 1737172694,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/37/e4/07/37e4079d-7170-7dd2-24d9-3f03629e208b/mzaf_1822415956970798402.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f3/e6/7c/f3e67cb1-c445-6906-fa76-a16b8f7c9b17/8804775349089.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "rescene-103",
+    "category": "리센느",
+    "artist": "리센느",
+    "artistEn": "RESCENE",
+    "artistAliases": [
+      "리센느",
+      "르센느",
+      "RESCENE"
+    ],
+    "title": "Pinball",
+    "titleEn": "Pinball",
+    "titleAliases": [
+      "Pinball",
+      "핀볼"
+    ],
+    "koreanRead": "핀볼",
+    "releaseYear": "2024",
+    "album": "SCENEDROME - EP",
+    "lyricHint": "이리저리 튕기는 감정 / 마치 핀볼 게임 같아",
+    "trivia": "통통 튀는 신스 사운드와 재치 있는 가사가 돋보이는 리센느의 매력적인 수록곡입니다.",
+    "itunesQuery": "리센느 Pinball",
+    "itunesTrackId": 1764485172,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/90/52/98/90529862-1dd3-ef47-80ab-dbf5fd4a893c/mzaf_16987686986345600516.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/43/0b/4c/430b4c8e-3cb8-da27-648f-435ec3b391a6/8804775334160.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "rescene-104",
+    "category": "리센느",
+    "artist": "리센느",
+    "artistEn": "RESCENE",
+    "artistAliases": [
+      "리센느",
+      "르센느",
+      "RESCENE"
+    ],
+    "title": "Deja Vu",
+    "titleEn": "Deja Vu",
+    "titleAliases": [
+      "Deja Vu",
+      "데자뷰"
+    ],
+    "koreanRead": "데자뷰",
+    "releaseYear": "2025",
+    "album": "Dearest - Single",
+    "lyricHint": "어딘가 익숙한 이 기시감 / Deja vu",
+    "trivia": "2025년 발표되어 한층 더 성숙해진 리센느의 보컬 하모니를 증명한 인기곡입니다.",
+    "itunesQuery": "리센느 Deja Vu",
+    "itunesTrackId": 1822439986,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/08/47/ac/0847ac83-1c65-e840-bf12-f6530c2da6e8/mzaf_4114291550689561164.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e3/4e/e4/e34ee4d9-47a3-8b51-b6cc-4d991508f0b5/cover_KM0023041_1.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "rescene-105",
+    "category": "리센느",
+    "artist": "리센느",
+    "artistEn": "RESCENE",
+    "artistAliases": [
+      "리센느",
+      "르센느",
+      "RESCENE"
+    ],
+    "title": "Glow Up",
+    "titleEn": "Glow Up",
+    "titleAliases": [
+      "Glow Up",
+      "글로우 업"
+    ],
+    "koreanRead": "글로우 업",
+    "releaseYear": "2025",
+    "album": "Glow Up - EP",
+    "lyricHint": "더 눈부시게 빛날 거야 / It's time to glow up",
+    "trivia": "자신감 넘치는 메시지와 세련된 비트로 사랑받는 리센느의 대표 앨범 트랙입니다.",
+    "itunesQuery": "리센느 Glow Up",
+    "itunesTrackId": 1794040971,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/51/69/69/516969f0-35fb-b783-1f1f-30c3b0558df6/mzaf_9906892271786488150.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/b6/72/c9/b672c9d1-e8a1-4def-363e-dc0e86042761/cover_KM0020943_1.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "rescene-106",
+    "category": "리센느",
+    "artist": "리센느",
+    "artistEn": "RESCENE",
+    "artistAliases": [
+      "리센느",
+      "르센느",
+      "RESCENE"
+    ],
+    "title": "Bloom",
+    "titleEn": "Bloom",
+    "titleAliases": [
+      "Bloom",
+      "블룸"
+    ],
+    "koreanRead": "블룸",
+    "releaseYear": "2025",
+    "album": "lip bomb - EP",
+    "lyricHint": "꽃망울이 피어나듯 / 세상에 너를 피워내",
+    "trivia": "꽃이 피어나는 순간의 향기를 표현한 서정적이고 아름다운 멜로디의 곡입니다.",
+    "itunesQuery": "리센느 Bloom",
+    "itunesTrackId": 1852644695,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/5e/55/625e5585-2a20-eb7e-e735-9ea0f8ed6361/mzaf_2826108569939178539.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/91/66/5a/91665a02-b5c1-8336-e973-88746539ab71/8804775401787.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "rescene-107",
+    "category": "리센느",
+    "artist": "리센느",
+    "artistEn": "RESCENE",
+    "artistAliases": [
+      "리센느",
+      "르센느",
+      "RESCENE"
+    ],
+    "title": "Pretty Girl",
+    "titleEn": "Pretty Girl",
+    "titleAliases": [
+      "Pretty Girl",
+      "프리티 걸"
+    ],
+    "koreanRead": "프리티 걸",
+    "releaseYear": "2026",
+    "album": "Pretty Girl - Single",
+    "lyricHint": "당당하고 자신감 넘치는 우리들의 이야기",
+    "trivia": "2026년 리센느의 상큼하고 통통 튀는 매력이 극대화된 최신 인기곡입니다.",
+    "itunesQuery": "리센느 Pretty Girl",
+    "itunesTrackId": 6786111946,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e4/df/9e/e4df9e2a-0671-503e-2e6e-107b424b78d5/mzaf_52784464605337022.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/44/70/65/44706599-2480-efab-7cfe-564b5e254b25/888272184075_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "rescene-108",
+    "category": "리센느",
+    "artist": "리센느",
+    "artistEn": "RESCENE",
+    "artistAliases": [
+      "리센느",
+      "르센느",
+      "RESCENE"
+    ],
+    "title": "Runaway",
+    "titleEn": "Runaway",
+    "titleAliases": [
+      "Runaway",
+      "런어웨이"
+    ],
+    "koreanRead": "런어웨이",
+    "releaseYear": "2026",
+    "album": "Runaway - Single",
+    "lyricHint": "어디든 좋아 함께라면 / Let's runaway",
+    "trivia": "질주감 넘치는 신나는 드럼 비트와 청량한 보컬이 인상적인 2026년 최신곡입니다.",
+    "itunesQuery": "리센느 Runaway",
+    "itunesTrackId": 1889474652,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/8c/b8/2b/8cb82b16-a181-a4a6-c745-7187bcf20b64/mzaf_2745322250276907813.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/6c/94/62/6c946232-183b-9e28-01c8-d630b41ca3a8/888272179019_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "jannabi-101",
+    "category": "잔나비",
+    "artist": "잔나비",
+    "artistEn": "JANNABI",
+    "artistAliases": [
+      "잔나비",
+      "JANNABI"
+    ],
+    "title": "슬픔이여안녕",
+    "titleEn": "good boy Twist",
+    "titleAliases": [
+      "슬픔이여안녕",
+      "슬픔이여 안녕"
+    ],
+    "koreanRead": "슬픔이여 안녕",
+    "releaseYear": "2018",
+    "album": "Good Boy Twist - Single",
+    "lyricHint": "슬픔이여 안녕 이제는 웃으며 손 흔들게",
+    "trivia": "레트로 트위스트 리듬 위에 슬픔을 위트 있게 날려버리는 정규 3집 수록곡입니다.",
+    "itunesQuery": "잔나비 슬픔이여안녕",
+    "itunesTrackId": 1425784227,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/af/4a/abaf4aae-43e9-7bf6-496b-b7f22b4b2bb6/mzaf_17723456627602793779.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/f9/ce/26/f9ce26c0-1b29-3a92-29de-4edce3c4b293/cover-_DS.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "jannabi-102",
+    "category": "잔나비",
+    "artist": "잔나비",
+    "artistEn": "JANNABI",
+    "artistAliases": [
+      "잔나비",
+      "JANNABI"
+    ],
+    "title": "She",
+    "titleEn": "She (Hidden Track No.V 1월 선정곡)",
+    "titleAliases": [
+      "She",
+      "쉬"
+    ],
+    "koreanRead": "쉬",
+    "releaseYear": "2017",
+    "album": "She - Single",
+    "lyricHint": "She is the moonlight in the shadow / 흩날리는 밤하늘 아래",
+    "trivia": "네이버 히든트랙을 통해 공개된 후 수많은 팬들의 최애곡으로 꼽히는 잔나비의 서정 발라드입니다.",
+    "itunesQuery": "잔나비 She",
+    "itunesTrackId": 1281470015,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1d/da/39/1dda39c0-908b-7eb7-6f75-ac107aa75a0c/mzaf_16231129250318181984.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/4b/8c/0f/4b8c0f1e-472e-732b-8dd8-f4a690ef95db/cover-_DS.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "ive-102",
+    "category": "아이브",
+    "artist": "아이브",
+    "artistEn": "IVE",
+    "artistAliases": [
+      "아이브",
+      "IVE"
+    ],
+    "title": "Holy Moly",
+    "titleEn": "Holy Moly",
+    "titleAliases": [
+      "Holy Moly",
+      "홀리 몰리"
+    ],
+    "koreanRead": "홀리 몰리",
+    "releaseYear": "2023",
+    "album": "I'VE MINE - EP",
+    "lyricHint": "Holy moly 말도 안 돼 / 마음을 뺏겨버린 순간",
+    "trivia": "I'VE MINE 앨범 수록곡으로 통통 튀는 브라스 사운드가 매력적인 인기 수록곡입니다.",
+    "itunesQuery": "아이브 Holy Moly",
+    "itunesTrackId": 1709569476,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e4/a9/bd/e4a9bdb8-e0fc-a487-e352-3d1ccaec5046/mzaf_12705680602776557343.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2e/a2/87/2ea2870f-9700-bb4e-df68-abd2acfb5fb9/197189809583.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "ive-103",
+    "category": "아이브",
+    "artist": "아이브",
+    "artistEn": "IVE",
+    "artistAliases": [
+      "아이브",
+      "IVE"
+    ],
+    "title": "Lips",
+    "titleEn": "Lips",
+    "titleAliases": [
+      "Lips",
+      "립스"
+    ],
+    "koreanRead": "립스",
+    "releaseYear": "2023",
+    "album": "I've IVE",
+    "lyricHint": "입술 끝에 맴도는 비밀 / 속삭여줄래",
+    "trivia": "정규 1집 I've IVE에 수록되어 부드러운 R&B 팝 멜로디로 큰 사랑을 받은 트랙입니다.",
+    "itunesQuery": "아이브 Lips",
+    "itunesTrackId": 1680047542,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/72/7a/e8/727ae848-95c9-ce96-87f7-8bbeb163ad35/mzaf_16943777619710069669.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3a/23/b7/3a23b7f4-0b43-df9d-b7e4-14f992443324/197188335663.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "aespa-101",
+    "category": "에스파",
+    "artist": "에스파",
+    "artistEn": "aespa",
+    "artistAliases": [
+      "에스파",
+      "aespa"
+    ],
+    "title": "Live My Life",
+    "titleEn": "Live My Life",
+    "titleAliases": [
+      "Live My Life",
+      "라이브 마이 라이프"
+    ],
+    "koreanRead": "라이브 마이 라이프",
+    "releaseYear": "2024",
+    "album": "Armageddon - The 1st Album",
+    "lyricHint": "내 인생은 나의 것 / 후회 없이 소리쳐",
+    "trivia": "정규 1집 수록곡으로 청량한 팝 록 사운드와 에스파의 시원한 고음이 돋보이는 힐링송입니다.",
+    "itunesQuery": "에스파 Live My Life",
+    "itunesTrackId": 1773694657,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/37/2e/87/372e8748-25cc-a921-cfc9-441a186a7753/mzaf_16352096618358419925.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/50/7e/e0/507ee09f-ccfd-1e3c-af90-ca5e92b1221b/00888735949869_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "aespa-102",
+    "category": "에스파",
+    "artist": "에스파",
+    "artistEn": "aespa",
+    "artistAliases": [
+      "에스파",
+      "aespa"
+    ],
+    "title": "Thirsty",
+    "titleEn": "Thirsty",
+    "titleAliases": [
+      "Thirsty",
+      "써스티"
+    ],
+    "koreanRead": "써스티",
+    "releaseYear": "2023",
+    "album": "MY WORLD - The 3rd Mini Album - EP",
+    "lyricHint": "너란 오아시스에 목이 말라 / Deeply thirsty",
+    "trivia": "미니 3집 MY WORLD 수록곡으로 트렌디한 R&B 비트 위에 달콤한 보컬이 어우러진 명곡입니다.",
+    "itunesQuery": "에스파 Thirsty",
+    "itunesTrackId": 1685400191,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/32/57/c2/3257c275-629e-1e88-3e19-f4d654a27f0b/mzaf_2840809668788078948.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/af/2c/6d/af2c6d62-0ebc-2dff-17b3-8eeb2b3986a0/888735943621.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "aespa-103",
+    "category": "에스파",
+    "artist": "에스파",
+    "artistEn": "aespa",
+    "artistAliases": [
+      "에스파",
+      "aespa"
+    ],
+    "title": "Illusion",
+    "titleEn": "Illusion (도깨비불)",
+    "titleAliases": [
+      "Illusion",
+      "도깨비불",
+      "일루전"
+    ],
+    "koreanRead": "도깨비불",
+    "releaseYear": "2022",
+    "album": "Girls - The 2nd Mini Album (Apple Music Edition)",
+    "lyricHint": "유혹하는 도깨비불을 따라 / Follow me",
+    "trivia": "미니 2집 Girls 선공개곡으로 쫀득한 베이스와 독특한 도깨비불 테마가 인상적인 트랙입니다.",
+    "itunesQuery": "에스파 Illusion",
+    "itunesTrackId": 1626752986,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/88/56/bb/8856bb25-a7e1-93c9-801a-553c38206d78/mzaf_12921002806601753640.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c9/7d/dd/c97ddd34-5962-8cf1-a55c-cf730d3069f5/888735941375.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "qwer-101",
+    "category": "인기 아이돌",
+    "artist": "QWER",
+    "artistEn": "QWER",
+    "artistAliases": [
+      "QWER",
+      "큐더블유이알"
+    ],
+    "title": "Discord",
+    "titleEn": "Discord",
+    "titleAliases": [
+      "Discord",
+      "디스코드"
+    ],
+    "koreanRead": "디스코드",
+    "releaseYear": "2023",
+    "album": "1st Single Album 'Harmony from Discord' - EP",
+    "lyricHint": "우리의 불협화음도 특별한 음악이 돼 / Discord",
+    "trivia": "QWER의 데뷔곡으로 유튜브와 숏폼을 뜨겁게 달구며 역주행 신화를 쓴 곡입니다.",
+    "itunesQuery": "QWER Discord",
+    "itunesTrackId": 1711740155,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d1/47/54/d14754a4-05fc-eac8-3918-77352c77f395/mzaf_997215286308469551.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/57/1b/2b/571b2b61-77b0-03b4-fa64-fdfef50beaad/cover_KM0018677_1.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "qwer-102",
+    "category": "인기 아이돌",
+    "artist": "QWER",
+    "artistEn": "QWER",
+    "artistAliases": [
+      "QWER",
+      "큐더블유이알"
+    ],
+    "title": "가짜 아이돌",
+    "titleEn": "Fake Idol",
+    "titleAliases": [
+      "가짜 아이돌"
+    ],
+    "koreanRead": "가짜 아이돌",
+    "releaseYear": "2024",
+    "album": "FAKE IDOL - Single",
+    "lyricHint": "진짜든 가짜든 상관없어 / 내 마음을 노래할래",
+    "trivia": "통통 튀는 펑크 록 사운드에 당찬 메시지를 담아낸 미니 2집 선공개곡입니다.",
+    "itunesQuery": "QWER 가짜 아이돌",
+    "itunesTrackId": 1765233147,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/94/95/0b9495ef-2567-faec-15a0-33698c6b3ba7/mzaf_2678608963391552635.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/d0/a8/51/d0a851ab-061e-115c-7264-b198fa7f2e19/cover_KM0020310_1.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "newjeans-104",
+    "category": "인기 아이돌",
+    "artist": "뉴진스",
+    "artistEn": "NewJeans",
+    "artistAliases": [
+      "뉴진스",
+      "NewJeans"
+    ],
+    "title": "ETA",
+    "titleEn": "ETA",
+    "titleAliases": [
+      "ETA",
+      "이티에이"
+    ],
+    "koreanRead": "이티에이",
+    "releaseYear": "2023",
+    "album": "NewJeans 2nd EP 'Get Up'",
+    "lyricHint": "낭비하지 마 네 시간은 은행 / What's your ETA?",
+    "trivia": "아이폰으로 뮤직비디오를 촬영하고 브레이크비트의 속도감으로 귀를 사로잡은 트랙입니다.",
+    "itunesQuery": "뉴진스 ETA",
+    "itunesTrackId": 1695951900,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fb/eb/dc/fbebdc04-d035-0b34-6df7-7c7e73e1c5ce/mzaf_1666920854414573023.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d3/4b/7e/d34b7e1e-af3b-43b6-2949-7a8c652a1bc9/196922462726_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "newjeans-105",
+    "category": "인기 아이돌",
+    "artist": "뉴진스",
+    "artistEn": "NewJeans",
+    "artistAliases": [
+      "뉴진스",
+      "NewJeans"
+    ],
+    "title": "OMG",
+    "titleEn": "OMG",
+    "titleAliases": [
+      "OMG",
+      "오엠지"
+    ],
+    "koreanRead": "오엠지",
+    "releaseYear": "2023",
+    "album": "NewJeans 'OMG' - Single",
+    "lyricHint": "Oh my oh my God 예상했어 나 / 정말 난 우연이라 생각 안 해",
+    "trivia": "UK 개러지와 트랩 리듬이 섞인 중독성 넘치는 힙합 R&B 히트곡입니다.",
+    "itunesQuery": "뉴진스 OMG",
+    "itunesTrackId": 1659513445,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a7/d4/4a/a7d44a6d-0044-36dc-4061-a90fb469c849/mzaf_14382190698601624004.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/48/96/08/4896085e-b550-cb0a-3e5b-1f203521cb82/196922265464_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "newjeans-106",
+    "category": "인기 아이돌",
+    "artist": "뉴진스",
+    "artistEn": "NewJeans",
+    "artistAliases": [
+      "뉴진스",
+      "NewJeans"
+    ],
+    "title": "Bubble Gum",
+    "titleEn": "Bubble Gum",
+    "titleAliases": [
+      "Bubble Gum",
+      "버블 검"
+    ],
+    "koreanRead": "버블 검",
+    "releaseYear": "2024",
+    "album": "How Sweet - EP",
+    "lyricHint": "달콤한 풍선껌을 불어 / 하늘 높이 날아올라",
+    "trivia": "일본 데뷔 싱글 수록곡이자 시티팝 감성이 물씬 풍기는 청량한 힐링 트랙입니다.",
+    "itunesQuery": "뉴진스 Bubble Gum",
+    "itunesTrackId": 1744448549,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/94/d6/aa/94d6aab6-6654-5aca-dbf8-9874b7975bcd/mzaf_16231939766265640228.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/bf/68/ca/bf68ca64-4acd-543f-bc78-455f11f06105/196922889738_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "bss-109",
+    "category": "인기 아이돌",
+    "artist": "부석순 (SEVENTEEN)",
+    "artistEn": "BSS",
+    "artistAliases": [
+      "부석순",
+      "BSS",
+      "세븐틴"
+    ],
+    "title": "파이팅 해야지",
+    "titleEn": "Fighting (feat. Lee Young Ji)",
+    "titleAliases": [
+      "파이팅 해야지",
+      "파이팅해야지"
+    ],
+    "koreanRead": "파이팅 해야지",
+    "releaseYear": "2023",
+    "album": "SECOND WIND",
+    "lyricHint": "파이팅 해야지 힘내야지 / 걷다 보면 끝이 나겠지",
+    "trivia": "이영지의 차진 랩과 부석순의 비타민 같은 에너지로 출근길 전국민을 응원한 국민 노동요입니다.",
+    "itunesQuery": "부석순 (SEVENTEEN) 파이팅 해야지",
+    "itunesTrackId": 1668145595,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1e/d7/70/1ed770be-2291-1a32-4a96-3efc348738da/mzaf_3487491780203244552.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/df/ec/37/dfec37b0-9c39-dfce-fefe-61cfd05e1680/196922266546_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "riize-110",
+    "category": "인기 아이돌",
+    "artist": "라이즈",
+    "artistEn": "RIIZE",
+    "artistAliases": [
+      "라이즈",
+      "RIIZE"
+    ],
+    "title": "Siren",
+    "titleEn": "Siren",
+    "titleAliases": [
+      "Siren",
+      "사이렌"
+    ],
+    "koreanRead": "사이렌",
+    "releaseYear": "2024",
+    "album": "Siren - Single",
+    "lyricHint": "비상경보 사이렌을 울려라 / 압도적인 퍼포먼스",
+    "trivia": "데뷔 전 퍼포먼스 비디오로 전 세계 K-POP 팬들에게 충격을 안겨준 고난도 안무의 곡입니다.",
+    "itunesQuery": "라이즈 Siren",
+    "itunesTrackId": 1737853820,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3e/f6/de/3ef6de67-a44d-2e27-9d63-fe900d90cd3c/mzaf_1177420738761066409.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5f/6b/7b/5f6b7bc8-46fd-5333-15e3-03fe8cfb5f9d/888735947322.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "tws-111",
+    "category": "인기 아이돌",
+    "artist": "TWS (투어스)",
+    "artistEn": "TWS",
+    "artistAliases": [
+      "TWS",
+      "투어스"
+    ],
+    "title": "내가 S면 넌 나의 N이 되어줘",
+    "titleEn": "If I'm S, Can You Be My N?",
+    "titleAliases": [
+      "내가 S면 넌 나의 N이 되어줘"
+    ],
+    "koreanRead": "내가 에스면 넌 나의 엔이 되어줘",
+    "releaseYear": "2026",
+    "album": "SODA SODA - Single",
+    "lyricHint": "자석처럼 서로에게 끌리는 우리 / S와 N",
+    "trivia": "서로 다른 극이 만나 완성되는 특별한 인연을 청량하게 노래한 미니 2집 타이틀곡입니다.",
+    "itunesQuery": "TWS (투어스) 내가 S면 넌 나의 N이 되어줘",
+    "itunesTrackId": 6793458545,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/28/d8/87/28d88716-7965-ca46-1519-c36511d566bc/mzaf_3863140239834726902.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/89/e4/0c/89e40cb0-ba79-0890-d87f-c9c685891418/26UMGIM92720.rgb.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "tws-112",
+    "category": "인기 아이돌",
+    "artist": "TWS (투어스)",
+    "artistEn": "TWS",
+    "artistAliases": [
+      "TWS",
+      "투어스"
+    ],
+    "title": "마지막 축제",
+    "titleEn": "Last Festival",
+    "titleAliases": [
+      "마지막 축제"
+    ],
+    "koreanRead": "마지막 축제",
+    "releaseYear": "2024",
+    "album": "Last Bell",
+    "lyricHint": "이 밤이 끝나도 우리의 노래는 영원해",
+    "trivia": "2024~2025년 겨울 투어스가 선보인 서정적이고 벅찬 감정선의 대표 싱글입니다.",
+    "itunesQuery": "TWS (투어스) 마지막 축제",
+    "itunesTrackId": 1779150394,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0a/79/40/0a79406f-d5c6-5c1f-e416-c4dd8baf922c/mzaf_9480888549397134244.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f4/4e/ba/f44ebacd-1e87-d3ec-79d5-f3dde10b9cab/198704208546_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "kissoflife-114",
+    "category": "인기 아이돌",
+    "artist": "키스오브라이프",
+    "artistEn": "KISS OF LIFE",
+    "artistAliases": [
+      "키스오브라이프",
+      "키오프",
+      "KISS OF LIFE"
+    ],
+    "title": "Shhh",
+    "titleEn": "Shhh",
+    "titleAliases": [
+      "Shhh",
+      "쉬"
+    ],
+    "koreanRead": "쉬",
+    "releaseYear": "2023",
+    "album": "KISS OF LIFE - EP",
+    "lyricHint": "쉿 비밀스러운 우리들만의 파티",
+    "trivia": "키스오브라이프의 독보적인 라이브 보컬과 당당한 매력을 각인시킨 강렬한 데뷔곡입니다.",
+    "itunesQuery": "키스오브라이프 Shhh",
+    "itunesTrackId": 1694699907,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/88/d8/46/88d8463e-d392-9cc1-8a3e-a8c23c00306f/mzaf_3277561497758761979.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/da/29/02/da29023d-6e10-bdd2-7415-ffaa1d5bf481/cover_KM0017387_1.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "babymonster-115",
+    "category": "인기 아이돌",
+    "artist": "베이비몬스터",
+    "artistEn": "BABYMONSTER",
+    "artistAliases": [
+      "베이비몬스터",
+      "베몬",
+      "BABYMONSTER"
+    ],
+    "title": "SHEESH",
+    "titleEn": "SHEESH",
+    "titleAliases": [
+      "SHEESH",
+      "쉬시"
+    ],
+    "koreanRead": "쉬시",
+    "releaseYear": "2024",
+    "album": "BABYMONS7ER - EP",
+    "lyricHint": "B-A-B-Y-M-O-N / 쉬시 쉬시 쉬시 쉬",
+    "trivia": "YG의 괴물 신인 베이비몬스터의 폭발적인 고음과 랩이 돋보이는 대표 히트곡입니다.",
+    "itunesQuery": "베이비몬스터 SHEESH",
+    "itunesTrackId": 1737962890,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e8/0e/20/e80e2080-c1e6-f616-bec0-82fbd530da09/mzaf_402899695312688427.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fb/68/85/fb68856f-4965-5d30-78ea-fe6bb261f4ff/3000px.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "babymonster-116",
+    "category": "인기 아이돌",
+    "artist": "베이비몬스터",
+    "artistEn": "BABYMONSTER",
+    "artistAliases": [
+      "베이비몬스터",
+      "베몬",
+      "BABYMONSTER"
+    ],
+    "title": "DRIP",
+    "titleEn": "DRIP",
+    "titleAliases": [
+      "DRIP",
+      "드립"
+    ],
+    "koreanRead": "드립",
+    "releaseYear": "2024",
+    "album": "DRIP",
+    "lyricHint": "지드래곤이 작곡에 참여한 트렌디하고 세련된 힙합 댄스 트랙입니다.",
+    "trivia": "정규 1집 타이틀곡으로 지드래곤 특유의 그루브와 베몬의 스웨그가 만난 곡입니다.",
+    "itunesQuery": "베이비몬스터 DRIP",
+    "itunesTrackId": 1773262055,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/11/49/8d/11498d26-33f8-d33e-9641-0931f48c1530/mzaf_16154189721053536181.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b9/e1/ef/b9e1ef3a-e3eb-8152-e91b-20aca0fc9ffd/BM_DRIP_Digital-Cover_4000.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "babymonster-117",
+    "category": "인기 아이돌",
+    "artist": "베이비몬스터",
+    "artistEn": "BABYMONSTER",
+    "artistAliases": [
+      "베이비몬스터",
+      "베몬",
+      "BABYMONSTER"
+    ],
+    "title": "FOREVER",
+    "titleEn": "FOREVER",
+    "titleAliases": [
+      "FOREVER",
+      "포에버"
+    ],
+    "koreanRead": "포에버",
+    "releaseYear": "2024",
+    "album": "FOREVER - Single",
+    "lyricHint": "눈부신 여름밤 영원히 꺼지지 않을 불꽃처럼",
+    "trivia": "신스팝의 밝은 에너지와 시원한 가창력이 어우러진 여름 스페셜 싱글입니다.",
+    "itunesQuery": "베이비몬스터 FOREVER",
+    "itunesTrackId": 1753210716,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d0/17/25/d0172580-1524-824c-7807-4c9e732b9c9b/mzaf_10594737550835540871.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/5b/2a/86/5b2a8611-2005-2287-1981-9edac10b795b/BABYMONSTER_FORVER.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "gidle-118",
+    "category": "인기 아이돌",
+    "artist": "(여자)아이들",
+    "artistEn": "(G)I-DLE",
+    "artistAliases": [
+      "(여자)아이들",
+      "아이들",
+      "(G)I-DLE"
+    ],
+    "title": "클락션 (Klaxon)",
+    "titleEn": "Klaxon",
+    "titleAliases": [
+      "클락션",
+      "Klaxon"
+    ],
+    "koreanRead": "클락션",
+    "releaseYear": "2024",
+    "album": "I SWAY - EP",
+    "lyricHint": "클락션을 울려 빵빵빵 / 내 마음을 고백할래",
+    "trivia": "무더운 여름을 한 방에 날려버리는 시원한 브라스와 중독적인 후렴구의 서머 송입니다.",
+    "itunesQuery": "(여자)아이들 클락션 (Klaxon)",
+    "itunesTrackId": 1801934667,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/eb/0b/27/eb0b273d-119e-f800-4c0a-03880e500534/mzaf_2522507805052497508.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ec/4e/ff/ec4eff34-d69a-b1c7-df76-5511c14b7fd4/198704037542.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "plave-119",
+    "category": "인기 아이돌",
+    "artist": "플레이브 (PLAVE)",
+    "artistEn": "PLAVE",
+    "artistAliases": [
+      "플레이브",
+      "PLAVE"
+    ],
+    "title": "WAY 4 LUV",
+    "titleEn": "WAY 4 LUV",
+    "titleAliases": [
+      "WAY 4 LUV",
+      "웨이 포 러브"
+    ],
+    "koreanRead": "웨이 포 러브",
+    "releaseYear": "2024",
+    "album": "ASTERUM : 134-1 - EP",
+    "lyricHint": "사랑을 찾아 떠나는 우리들의 여정 / Way for love",
+    "trivia": "버추얼 아이돌 최초로 공중파 음방 1위와 멜론 차트 정상을 정복한 플레이브의 명곡입니다.",
+    "itunesQuery": "플레이브 (PLAVE) WAY 4 LUV",
+    "itunesTrackId": 1732393370,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/55/0b/9a/550b9ad4-17f9-c17b-979c-68ada0ab2811/mzaf_3573603930208239944.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/97/09/40/970940a4-afc8-42a3-5fd1-ee003507fde6/Final_134-1_album_jacket_image.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "plave-120",
+    "category": "인기 아이돌",
+    "artist": "플레이브 (PLAVE)",
+    "artistEn": "PLAVE",
+    "artistAliases": [
+      "플레이브",
+      "PLAVE"
+    ],
+    "title": "펌프 업 더 볼륨!",
+    "titleEn": "Pump Up The Volume!",
+    "titleAliases": [
+      "펌프 업 더 볼륨!",
+      "펌프업더볼륨"
+    ],
+    "koreanRead": "펌프 업 더 볼륨",
+    "releaseYear": "2024",
+    "album": "Pump Up The Volume! - Single",
+    "lyricHint": "볼륨을 더 높여봐 / 라디오 주파수에 실린 우리 사랑",
+    "trivia": "아날로그 라디오 감성과 시원한 밴드 록 사운드로 멜론 1위를 차지한 서머 싱글입니다.",
+    "itunesQuery": "플레이브 (PLAVE) 펌프 업 더 볼륨!",
+    "itunesTrackId": 1762780956,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/eb/42/10/eb42108a-7240-1357-1efa-14109a4c06c3/mzaf_12163634898581150163.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/80/11/4b/80114b2d-78df-e4be-0559-54dccb3fb4be/8800261898086_cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "rosebrunomars-101",
+    "category": "2026 차트",
+    "artist": "로제 (ROSE) & 브루노 마스",
+    "artistEn": "ROSE & Bruno Mars",
+    "artistAliases": [
+      "로제",
+      "브루노 마스",
+      "ROSE",
+      "Bruno Mars"
+    ],
+    "title": "APT.",
+    "titleEn": "APT.",
+    "titleAliases": [
+      "APT.",
+      "아파트",
+      "APT"
+    ],
+    "koreanRead": "아파트",
+    "releaseYear": "2024",
+    "album": "APT. - Single",
+    "lyricHint": "아파트 아파트 / 아파트 아파트 / Uh, uh-huh, uh-huh",
+    "trivia": "한국의 술자리 게임 아파트를 모티브로 전 세계 차트를 씹어먹은 세기의 글로벌 메가히트곡입니다.",
+    "itunesQuery": "로제 (ROSE) & 브루노 마스 APT.",
+    "itunesTrackId": 1773452221,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7a/15/38/7a1538f3-f41a-a2eb-0f24-8eb6712ee043/mzaf_7740628412097685267.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2d/1a/7d/2d1a7d91-587e-0ceb-d434-327bd66d9e86/075679628312.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "rose-102",
+    "category": "2026 차트",
+    "artist": "로제 (ROSE)",
+    "artistEn": "ROSE",
+    "artistAliases": [
+      "로제",
+      "ROSE"
+    ],
+    "title": "toxic till the end",
+    "titleEn": "toxic till the end",
+    "titleAliases": [
+      "toxic till the end",
+      "톡식 틸 디 엔드"
+    ],
+    "koreanRead": "톡식 틸 디 엔드",
+    "releaseYear": "2024",
+    "album": "rosie",
+    "lyricHint": "지독하게 얽힌 사랑의 끝자락을 노래한 로제의 첫 정규 앨범 타이틀곡입니다.",
+    "trivia": "솔직하고 대담한 노랫말과 감성적인 멜로디로 글로벌 차트를 점령한 트랙입니다.",
+    "itunesQuery": "로제 (ROSE) toxic till the end",
+    "itunesTrackId": 1771105929,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/45/15/49/451549d8-ddd7-dad4-0f3d-588a0c9d1b98/mzaf_17766988925119316702.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2d/14/66/2d14661b-345b-d0f3-4e86-56ef626e68aa/075679629203.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "rose-103",
+    "category": "2026 차트",
+    "artist": "로제 (ROSE)",
+    "artistEn": "ROSE",
+    "artistAliases": [
+      "로제",
+      "ROSE"
+    ],
+    "title": "number one girl",
+    "titleEn": "number one girl",
+    "titleAliases": [
+      "number one girl",
+      "넘버 원 걸"
+    ],
+    "koreanRead": "넘버 원 걸",
+    "releaseYear": "2024",
+    "album": "rosie",
+    "lyricHint": "너에게 오직 단 한 사람이고 싶어 / Your number one girl",
+    "trivia": "로제가 팬들을 향한 진심 어린 고백을 담아 선공개한 어쿠스틱 감성 발라드입니다.",
+    "itunesQuery": "로제 (ROSE) number one girl",
+    "itunesTrackId": 1771105923,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8e/9f/c0/8e9fc022-999c-1c16-51c0-f45ebddda026/mzaf_8590681836583902002.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/2d/14/66/2d14661b-345b-d0f3-4e86-56ef626e68aa/075679629203.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "zicojennie-104",
+    "category": "2026 차트",
+    "artist": "지코 (ZICO) & 제니",
+    "artistEn": "ZICO & JENNIE",
+    "artistAliases": [
+      "지코",
+      "제니",
+      "ZICO",
+      "JENNIE"
+    ],
+    "title": "SPOT!",
+    "titleEn": "SPOT! (feat. JENNIE)",
+    "titleAliases": [
+      "SPOT!",
+      "스팟"
+    ],
+    "koreanRead": "스팟",
+    "releaseYear": "2024",
+    "album": "SPOT! (feat. JENNIE) - Single",
+    "lyricHint": "오늘 밤 우리 둘만의 특별한 자리 / Right on the spot",
+    "trivia": "심플한 힙합 비트 위에 지코와 제니의 찰떡 케미스트리가 폭발한 2024년 국민 히트곡입니다.",
+    "itunesQuery": "지코 (ZICO) & 제니 SPOT!",
+    "itunesTrackId": 1742019076,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6e/c5/04/6ec5043a-f032-9803-f6c2-55956d0da9f9/mzaf_7311793964113917388.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2e/2c/9c/2e2c9cb1-7352-867a-013c-9c885a9f7f4e/196922944741_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "bibi-105",
+    "category": "2026 차트",
+    "artist": "비비 (BIBI)",
+    "artistEn": "BIBI",
+    "artistAliases": [
+      "비비",
+      "BIBI"
+    ],
+    "title": "밤양갱",
+    "titleEn": "Bam Yang Gang",
+    "titleAliases": [
+      "밤양갱",
+      "Bam Yang Gang"
+    ],
+    "koreanRead": "밤양갱",
+    "releaseYear": "2024",
+    "album": "Bam Yang Gang - Single",
+    "lyricHint": "달디달고 달디달고 달디단 밤양갱 밤양갱",
+    "trivia": "장기하가 작사 작곡하고 비비가 불러 대한민국에 양갱 열풍을 몰고 온 순수한 사랑 노래입니다.",
+    "itunesQuery": "비비 (BIBI) 밤양갱",
+    "itunesTrackId": 1729547611,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b1/f5/5c/b1f55c57-76ee-524f-35b3-ba046034ac9e/mzaf_17010912782387954876.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ba/31/d6/ba31d644-bb34-1e4c-5600-c403b83159ef/cover_KM0019491_1.png/600x600bb.jpg"
+  },
+  {
+    "id": "bibi-106",
+    "category": "2026 차트",
+    "artist": "비비 (BIBI)",
+    "artistEn": "BIBI",
+    "artistAliases": [
+      "비비",
+      "BIBI"
+    ],
+    "title": "DERRE",
+    "titleEn": "DERRE",
+    "titleAliases": [
+      "DERRE",
+      "데레"
+    ],
+    "koreanRead": "데레",
+    "releaseYear": "2024",
+    "album": "Derre - Single",
+    "lyricHint": "무심한 척 츤데레 같은 너의 태도 / DERRE",
+    "trivia": "비비만의 몽환적이고 위트 있는 음색이 돋보이는 2024~2025 R&B 히트곡입니다.",
+    "itunesQuery": "비비 (BIBI) DERRE",
+    "itunesTrackId": 1778418692,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/90/a9/e8/90a9e855-7fb2-1c3a-1374-b80c3cd81b49/mzaf_4023063204682300078.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f0/6e/9c/f06e9c54-debe-ee64-ae18-ca5ed7e1a83d/cover_KM0020590_1.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "eclipse-107",
+    "category": "2026 차트",
+    "artist": "이클립스 (ECLIPSE)",
+    "artistEn": "ECLIPSE",
+    "artistAliases": [
+      "이클립스",
+      "변우석",
+      "ECLIPSE"
+    ],
+    "title": "소나기",
+    "titleEn": "Sudden Shower",
+    "titleAliases": [
+      "소나기",
+      "Sudden Shower"
+    ],
+    "koreanRead": "소나기",
+    "releaseYear": "2024",
+    "album": "Lovely Runner, Pt. 1 (Original Soundtrack)",
+    "lyricHint": "그댄 선물 같은 소나기처럼 / 내 메마른 맘을 적셔주네요",
+    "trivia": "드라마 <선재 업고 튀어>의 메인 테마곡으로 배우 변우석이 직접 불러 신드롬을 낳은 감성 록 발라드입니다.",
+    "itunesQuery": "이클립스 (ECLIPSE) 소나기",
+    "itunesTrackId": 1739750624,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/7d/0e/c17d0eed-ff18-f551-46fc-5218bb7d390a/mzaf_16979871769398553272.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/41/84/09/418409b3-7485-6cc0-9533-584fb0eecfaf/888272132571_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "leemujin-108",
+    "category": "2026 차트",
+    "artist": "이무진",
+    "artistEn": "Lee Mujin",
+    "artistAliases": [
+      "이무진"
+    ],
+    "title": "에피소드",
+    "titleEn": "Episode",
+    "titleAliases": [
+      "에피소드",
+      "Episode"
+    ],
+    "koreanRead": "에피소드",
+    "releaseYear": "2023",
+    "album": "Episode - Single",
+    "lyricHint": "우리 참 좋았었는데 / 지나간 계절의 한 편의 에피소드처럼",
+    "trivia": "찬란했던 사랑의 기억을 담백하면서도 애절하게 담아내 장기간 차트를 지킨 발라드입니다.",
+    "itunesQuery": "이무진 에피소드",
+    "itunesTrackId": 1786321555,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f3/e2/46/f3e246ab-1b43-0209-729d-0d263b7a1901/mzaf_2636080177121459380.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/e4/9b/d3/e49bd30b-fbfb-71b1-d0aa-872aa6a0a278/8804775309342_cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "leemujin-110",
+    "category": "2026 차트",
+    "artist": "이무진",
+    "artistEn": "Lee Mujin",
+    "artistAliases": [
+      "이무진"
+    ],
+    "title": "신호등",
+    "titleEn": "Traffic light",
+    "titleAliases": [
+      "신호등",
+      "Traffic light"
+    ],
+    "koreanRead": "신호등",
+    "releaseYear": "2021",
+    "album": "Traffic Light - Single",
+    "lyricHint": "붉은색 푸른색 그 사이 3초 그 짧은 시간 / 노란색 빛을 내는 신호등",
+    "trivia": "사회에 첫발을 디딘 청춘의 고뇌를 신호등에 빗대어 전 국민의 공감을 산 대표 메가히트곡입니다.",
+    "itunesQuery": "이무진 신호등",
+    "itunesTrackId": 1567544638,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9c/b5/3a/9cb53a36-d58f-d9a8-b23c-5bc1d28ef431/mzaf_17732560313905705620.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1b/d7/a3/1bd7a3bb-7c77-7a72-dd2e-dfb614c60182/cover-_ONLINE_COVER_0506.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "woody-111",
+    "category": "2026 차트",
+    "artist": "우디 (Woody)",
+    "artistEn": "Woody",
+    "artistAliases": [
+      "우디",
+      "Woody"
+    ],
+    "title": "사막에서 꽃을 피우듯",
+    "titleEn": "Flower in the desert",
+    "titleAliases": [
+      "사막에서 꽃을 피우듯"
+    ],
+    "koreanRead": "사막에서 꽃을 피우듯",
+    "releaseYear": "2023",
+    "album": "Flower in the Desert - Single",
+    "lyricHint": "척박한 삶 속에서도 널 향한 사랑은 꽃을 피워",
+    "trivia": "호소력 짙은 보이스로 멜론 발라드 차트 최정상을 정복한 우디의 불후의 명곡입니다.",
+    "itunesQuery": "우디 (Woody) 사막에서 꽃을 피우듯",
+    "itunesTrackId": 1696860541,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/59/a4/48/59a44804-1f18-33c2-0e7b-dcac4abbf7c0/mzaf_18287784573593937173.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b9/cc/4e/b9cc4ef9-50ab-7f27-b5c9-7770617df7c0/01..jpg/600x600bb.jpg"
+  },
+  {
+    "id": "limyoungwoong-113",
+    "category": "2026 차트",
+    "artist": "임영웅",
+    "artistEn": "Lim Young Woong",
+    "artistAliases": [
+      "임영웅",
+      "Lim Young Woong"
+    ],
+    "title": "온기",
+    "titleEn": "Warmth",
+    "titleAliases": [
+      "온기"
+    ],
+    "koreanRead": "온기",
+    "releaseYear": "2024",
+    "album": "Warmth - Single",
+    "lyricHint": "추운 겨울밤 시린 발끝을 녹여주는 온기처럼",
+    "trivia": "임영웅이 직접 작사 작곡에 참여해 단편영화와 함께 큰 감동을 선사한 자작곡입니다.",
+    "itunesQuery": "임영웅 온기",
+    "itunesTrackId": 1744529397,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/6b/95/246b950f-bcc8-a9df-4302-75d0324a7ed6/mzaf_4895633552019474992.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/df/e6/45/dfe64568-3dae-6a67-36b9-4276c7556c89/cover_KM0019842_1.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "limyoungwoong-114",
+    "category": "2026 차트",
+    "artist": "임영웅",
+    "artistEn": "Lim Young Woong",
+    "artistAliases": [
+      "임영웅",
+      "Lim Young Woong"
+    ],
+    "title": "Home",
+    "titleEn": "Home",
+    "titleAliases": [
+      "Home",
+      "홈"
+    ],
+    "koreanRead": "홈",
+    "releaseYear": "2024",
+    "album": "Warmth - Single",
+    "lyricHint": "언제든 돌아와 쉴 수 있는 너만의 집이 될게",
+    "trivia": "신나는 하우스 비트와 따스한 가사로 영웅시대와 온 국민에게 힐링을 선사한 곡입니다.",
+    "itunesQuery": "임영웅 Home",
+    "itunesTrackId": 1744529396,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/99/42/6b/99426b40-5dd6-cd33-f98c-31a22809a7a6/mzaf_11326912503857060753.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/df/e6/45/dfe64568-3dae-6a67-36b9-4276c7556c89/cover_KM0019842_1.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "limyoungwoong-115",
+    "category": "2026 차트",
+    "artist": "임영웅",
+    "artistEn": "Lim Young Woong",
+    "artistAliases": [
+      "임영웅",
+      "Lim Young Woong"
+    ],
+    "title": "모래 알갱이",
+    "titleEn": "Grain of Sand",
+    "titleAliases": [
+      "모래 알갱이"
+    ],
+    "koreanRead": "모래 알갱이",
+    "releaseYear": "2023",
+    "album": "Grain of Sand - Single",
+    "lyricHint": "나는 작은 모래 알갱이 / 바람 불면 날아가",
+    "trivia": "임영웅의 감미로운 휘파람 소리와 서정적인 멜로디가 돋보이는 자작곡 명곡입니다.",
+    "itunesQuery": "임영웅 모래 알갱이",
+    "itunesTrackId": 1699189912,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/0c/76/4d/0c764db0-1223-bda7-5ade-8fb1a6d3bb68/mzaf_6178280437461332450.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3b/88/53/3b885365-bc05-3aca-96cc-02fb5b8e52fe/8809933236300.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "10cm-124",
+    "category": "2026 차트",
+    "artist": "10CM",
+    "artistEn": "10CM",
+    "artistAliases": [
+      "10CM",
+      "십센치"
+    ],
+    "title": "봄이 좋냐??",
+    "titleEn": "What The Spring??",
+    "titleAliases": [
+      "봄이 좋냐??",
+      "봄이 좋냐"
+    ],
+    "koreanRead": "봄이 좋냐",
+    "releaseYear": "2016",
+    "album": "3.2 - Single",
+    "lyricHint": "봄이 그렇게도 좋냐 멍청이들아 / 벚꽃이 그렇게도 예쁘디 바보들아",
+    "trivia": "봄마다 찾아오는 커플 저격 솔로 애국가로 전국민의 웃음과 공감을 유발하는 명곡입니다.",
+    "itunesQuery": "10CM 봄이 좋냐??",
+    "itunesTrackId": 1747833892,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cc/4f/d1/cc4fd1c2-234a-9603-65a5-2b2734d98cf1/mzaf_11551298805648114696.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e5/93/a3/e593a327-755a-0ac3-157a-800389822c0c/5056005043981.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "jungkook-130",
+    "category": "2026 차트",
+    "artist": "정국 (Jungkook)",
+    "artistEn": "Jung Kook",
+    "artistAliases": [
+      "정국",
+      "방탄소년단",
+      "Jung Kook"
+    ],
+    "title": "Seven",
+    "titleEn": "Seven (feat. Latto)",
+    "titleAliases": [
+      "Seven",
+      "세븐"
+    ],
+    "koreanRead": "세븐",
+    "releaseYear": "2023",
+    "album": "GOLDEN",
+    "lyricHint": "Monday Tuesday Wednesday Thursday Friday Saturday Sunday / 7 days a week",
+    "trivia": "빌보드 핫100 1위와 전 세계 스트리밍 기록을 갈아치운 정국의 글로벌 메가팝 히트곡입니다.",
+    "itunesQuery": "정국 (Jungkook) Seven",
+    "itunesTrackId": 1709555102,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/87/fc/7c/87fc7ced-ace9-2ec4-2e8a-c9a64c841a15/mzaf_3965990725450677139.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/86/78/b4/8678b4b3-2341-7239-b6cb-bcfdaef0e4e0/196922656545_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "jungkook-131",
+    "category": "2026 차트",
+    "artist": "정국 (Jungkook)",
+    "artistEn": "Jung Kook",
+    "artistAliases": [
+      "정국",
+      "방탄소년단",
+      "Jung Kook"
+    ],
+    "title": "Standing Next to You",
+    "titleEn": "Standing Next to You",
+    "titleAliases": [
+      "Standing Next to You",
+      "스탠딩 넥스트 투 유"
+    ],
+    "koreanRead": "스탠딩 넥스트 투 유",
+    "releaseYear": "2023",
+    "album": "GOLDEN",
+    "lyricHint": "깊은 사랑의 결속을 마이클 잭슨 오마주 펑크 사운드로 승화시킨 역대급 퍼포먼스 곡입니다.",
+    "trivia": "화려한 브라스와 압도적인 보컬로 빌보드를 강타한 솔로 정규 앨범 타이틀곡입니다.",
+    "itunesQuery": "정국 (Jungkook) Standing Next to You",
+    "itunesTrackId": 1709554997,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/17/e4/44/17e4443f-ccac-37e9-ae7e-c27652c8bb7c/mzaf_1611321858020850805.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/86/78/b4/8678b4b3-2341-7239-b6cb-bcfdaef0e4e0/196922656545_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "jannabi-105",
+    "category": "잔나비",
+    "artist": "잔나비",
+    "artistEn": "JANNABI",
+    "artistAliases": [
+      "잔나비",
+      "JANNABI"
+    ],
+    "title": "Wish",
+    "titleEn": "Wish",
+    "titleAliases": [
+      "Wish",
+      "위시"
+    ],
+    "koreanRead": "위시",
+    "releaseYear": "2016",
+    "album": "Monkey Hotel",
+    "lyricHint": "마음 깊은 곳에서 피어나는 작은 소망 / Wish",
+    "trivia": "잔나비 특유의 빈티지 아날로그 감성이 돋보이는 따뜻한 트랙입니다.",
+    "itunesQuery": "잔나비 Wish",
+    "itunesTrackId": 1140706731,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/79/c2/28/79c22882-d7f1-e0e4-9e78-10092551bee5/mzaf_12769544688894987974.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/30/d9/0b/30d90b00-84b7-4e9b-1452-823049e36d09/COVER-_JANNABI.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "aespa-105",
+    "category": "에스파",
+    "artist": "에스파",
+    "artistEn": "aespa",
+    "artistAliases": [
+      "에스파",
+      "aespa"
+    ],
+    "title": "Life's Too Short",
+    "titleEn": "Life's Too Short (English Ver.)",
+    "titleAliases": [
+      "Life's Too Short",
+      "라이프스 투 쇼트"
+    ],
+    "koreanRead": "라이프스 투 쇼트",
+    "releaseYear": "2022",
+    "album": "Girls - The 2nd Mini Album (Apple Music Edition)",
+    "lyricHint": "한 번뿐인 인생 남의 시선에 얽매이지 말고 즐겨",
+    "trivia": "경쾌한 기타 리프와 에스파 멤버들의 사랑스러운 보컬이 어우러진 힐링 팝송입니다.",
+    "itunesQuery": "에스파 Life's Too Short",
+    "itunesTrackId": 1626752998,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/79/73/d1/7973d187-1163-ff18-10e6-858916d27b22/mzaf_1347425210640906679.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/c9/7d/dd/c97ddd34-5962-8cf1-a55c-cf730d3069f5/888735941375.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "akmu-103",
+    "category": "악뮤",
+    "artist": "악뮤",
+    "artistEn": "AKMU",
+    "artistAliases": [
+      "악뮤",
+      "악동뮤지션",
+      "AKMU"
+    ],
+    "title": "얼음들",
+    "titleEn": "Melted",
+    "titleAliases": [
+      "얼음들",
+      "Melted"
+    ],
+    "koreanRead": "얼음들",
+    "releaseYear": "2014",
+    "album": "PLAY",
+    "lyricHint": "붉은 해가 저물 때쯤 세상에 남겨진 아이 / 얼음들이 녹아내리면",
+    "trivia": "차갑고 어른스러운 세상을 얼음에 비유해 깊은 울림을 준 악뮤 정규 1집의 걸작 타이틀곡입니다.",
+    "itunesQuery": "악뮤 얼음들",
+    "itunesTrackId": 1316852698,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/01/00/a7/0100a73a-1b9b-78f7-a141-daa6b5b0075b/mzaf_4336070834637914798.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/0d/fc/aa/0dfcaa7f-c686-e945-85e1-73aece780869/AKMU-PLAY_DS_cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "riize-121",
+    "category": "인기 아이돌",
+    "artist": "라이즈",
+    "artistEn": "RIIZE",
+    "artistAliases": [
+      "라이즈",
+      "RIIZE"
+    ],
+    "title": "Impossible",
+    "titleEn": "Impossible",
+    "titleAliases": [
+      "Impossible",
+      "임파서블"
+    ],
+    "koreanRead": "임파서블",
+    "releaseYear": "2024",
+    "album": "Impossible - Single",
+    "lyricHint": "불가능은 없어 함께 달리는 지금 / Impossible",
+    "trivia": "하우스 댄스 비트 위에 라이즈의 고난도 브레이킹 풋워크 퍼포먼스가 빛나는 싱글입니다.",
+    "itunesQuery": "라이즈 Impossible",
+    "itunesTrackId": 1739807503,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6a/49/6c/6a496c61-2969-8213-a68d-c40c1f9f33fc/mzaf_1932960499999738757.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/26/dd/35/26dd3596-341b-c40c-8a3d-7a2ab9e166aa/888735947346.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "tws-122",
+    "category": "인기 아이돌",
+    "artist": "TWS (투어스)",
+    "artistEn": "TWS",
+    "artistAliases": [
+      "TWS",
+      "투어스"
+    ],
+    "title": "hey! hey!",
+    "titleEn": "hey! hey!",
+    "titleAliases": [
+      "hey! hey!",
+      "헤이헤이"
+    ],
+    "koreanRead": "헤이 헤이",
+    "releaseYear": "2024",
+    "album": "hey! hey! - Single",
+    "lyricHint": "심장을 두드리는 여름날의 질주 / Hey hey",
+    "trivia": "청춘의 거침없는 에너지를 록 기타 사운드에 실어 보낸 미니 2집 선공개곡입니다.",
+    "itunesQuery": "TWS (투어스) hey! hey!",
+    "itunesTrackId": 1747783884,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/85/99/61/85996160-7ac7-3d12-8ef6-e4c3289cd621/mzaf_15977848521858499848.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/20/66/32/2066323d-435f-e6d7-5c32-907903719e36/196922975615_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "boynextdoor-123",
+    "category": "인기 아이돌",
+    "artist": "보이넥스트도어",
+    "artistEn": "BOYNEXTDOOR",
+    "artistAliases": [
+      "보이넥스트도어",
+      "보넥도",
+      "BOYNEXTDOOR"
+    ],
+    "title": "Nice Guy",
+    "titleEn": "Nice Guy",
+    "titleAliases": [
+      "Nice Guy",
+      "나이스 가이"
+    ],
+    "koreanRead": "나이스 가이",
+    "releaseYear": "2024",
+    "album": "19.99",
+    "lyricHint": "세상 사람 모두 날 좋아할 걸 / 난 꽤 괜찮은 나이스 가이",
+    "trivia": "위트 넘치고 친근한 매력으로 멜론 차트를 강타한 미니 3집 19.99 타이틀곡입니다.",
+    "itunesQuery": "보이넥스트도어 Nice Guy",
+    "itunesTrackId": 1765199947,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/04/c4/ab04c4c6-94de-c4a6-20f8-acda2135af96/mzaf_13993952372532911340.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/fe/7a/25fe7a3c-09c5-fedd-418e-42c8d03b115e/198704113956_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "boynextdoor-124",
+    "category": "인기 아이돌",
+    "artist": "보이넥스트도어",
+    "artistEn": "BOYNEXTDOOR",
+    "artistAliases": [
+      "보이넥스트도어",
+      "보넥도",
+      "BOYNEXTDOOR"
+    ],
+    "title": "부모님 관람불가",
+    "titleEn": "Dangerous",
+    "titleAliases": [
+      "부모님 관람불가",
+      "Dangerous"
+    ],
+    "koreanRead": "부모님 관람불가",
+    "releaseYear": "2024",
+    "album": "19.99",
+    "lyricHint": "한밤중 부모님 몰래 벌이는 장난스러운 일탈",
+    "trivia": "재치 있는 가사와 강력한 비트로 Z세대의 큰 지지를 받은 선공개 트랙입니다.",
+    "itunesQuery": "보이넥스트도어 부모님 관람불가",
+    "itunesTrackId": 1765199816,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e2/36/40/e23640b4-710e-2f51-c050-e61e6d90cfeb/mzaf_2683159328799596359.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/25/fe/7a/25fe7a3c-09c5-fedd-418e-42c8d03b115e/198704113956_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "nmixx-125",
+    "category": "인기 아이돌",
+    "artist": "엔믹스 (NMIXX)",
+    "artistEn": "NMIXX",
+    "artistAliases": [
+      "엔믹스",
+      "NMIXX"
+    ],
+    "title": "DICE",
+    "titleEn": "DICE",
+    "titleAliases": [
+      "DICE",
+      "다이스"
+    ],
+    "koreanRead": "다이스",
+    "releaseYear": "2022",
+    "album": "ENTWURF - EP",
+    "lyricHint": "주사위를 던져 새로운 게임을 시작해 / Big wave",
+    "trivia": "MIXX POP 장르의 정수를 보여준 엔믹스의 고난도 보컬과 랩이 돋보이는 곡입니다.",
+    "itunesQuery": "엔믹스 (NMIXX) DICE",
+    "itunesTrackId": 1688803369,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/17/fd/73/17fd73b6-dd64-3c49-dd9a-77295d828237/mzaf_11126041509939789163.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/86/27/38/86273818-e315-adec-fe27-c65bb5f9c982/738676860016_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "nmixx-126",
+    "category": "인기 아이돌",
+    "artist": "엔믹스 (NMIXX)",
+    "artistEn": "NMIXX",
+    "artistAliases": [
+      "엔믹스",
+      "NMIXX"
+    ],
+    "title": "Roller Coaster",
+    "titleEn": "Roller Coaster",
+    "titleAliases": [
+      "Roller Coaster",
+      "롤러코스터"
+    ],
+    "koreanRead": "롤러코스터",
+    "releaseYear": "2023",
+    "album": "Roller Coaster - Single",
+    "lyricHint": "심장이 쿵 떨어지는 롤러코스터 같은 사랑",
+    "trivia": "시원하고 몽환적인 신스팝 멜로디로 여름을 청량하게 물들인 선공개곡입니다.",
+    "itunesQuery": "엔믹스 (NMIXX) Roller Coaster",
+    "itunesTrackId": 1693911799,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/12/5d/aa/125daaff-28b5-6783-4da2-dff3496c6f45/mzaf_5219186873366998872.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/13/d8/26/13d826a9-7a4d-13ce-0ac6-50b308e98f79/738676860757_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "plave-128",
+    "category": "인기 아이돌",
+    "artist": "플레이브 (PLAVE)",
+    "artistEn": "PLAVE",
+    "artistAliases": [
+      "플레이브",
+      "PLAVE"
+    ],
+    "title": "기다릴게",
+    "titleEn": "Wait For You",
+    "titleAliases": [
+      "기다릴게"
+    ],
+    "koreanRead": "기다릴게",
+    "releaseYear": "2023",
+    "album": "ASTERUM - Single",
+    "lyricHint": "시간이 흘러도 난 여기서 널 기다릴게",
+    "trivia": "버추얼 그룹 플레이브의 감동적인 시작을 알린 명곡 데뷔 타이틀곡입니다.",
+    "itunesQuery": "플레이브 (PLAVE) 기다릴게",
+    "itunesTrackId": 1676593845,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5d/21/2d/5d212df6-9019-3118-3301-f7d6d47847de/mzaf_6866064467918947383.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bb/da/78/bbda783a-b777-6a5c-d040-100090323307/Cover_PLAVE_ASTERUM.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "zerobaseone-129",
+    "category": "인기 아이돌",
+    "artist": "제로베이스원",
+    "artistEn": "ZEROBASEONE",
+    "artistAliases": [
+      "제로베이스원",
+      "제베원",
+      "ZEROBASEONE",
+      "ZB1"
+    ],
+    "title": "In Bloom",
+    "titleEn": "In Bloom",
+    "titleAliases": [
+      "In Bloom",
+      "인 블룸"
+    ],
+    "koreanRead": "인 블룸",
+    "releaseYear": "2023",
+    "album": "YOUTH IN THE SHADE - EP",
+    "lyricHint": "찬란하게 피어나는 청춘의 꽃 / In bloom",
+    "trivia": "A-ha의 Take On Me를 샘플링한 드럼 앤 베이스 비트의 화려한 데뷔곡입니다.",
+    "itunesQuery": "제로베이스원 In Bloom",
+    "itunesTrackId": 1694484118,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b2/b4/31/b2b43189-00e6-1168-419c-a36ca503ab03/mzaf_15090784475278809828.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/88/54/86/88548618-63ed-4bf1-65dd-51fb0d4f2d57/888272119350_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "zerobaseone-130",
+    "category": "인기 아이돌",
+    "artist": "제로베이스원",
+    "artistEn": "ZEROBASEONE",
+    "artistAliases": [
+      "제로베이스원",
+      "제베원",
+      "ZEROBASEONE",
+      "ZB1"
+    ],
+    "title": "GOOD SO BAD",
+    "titleEn": "GOOD SO BAD",
+    "titleAliases": [
+      "GOOD SO BAD",
+      "굿 쏘 배드"
+    ],
+    "koreanRead": "굿 쏘 배드",
+    "releaseYear": "2024",
+    "album": "CINEMA PARADISE",
+    "lyricHint": "놓칠 수 없는 찬란한 운명적 사랑",
+    "trivia": "신스팝의 청량감과 켄지(KENZIE)의 프로듀싱이 빛나는 미니 4집 타이틀곡입니다.",
+    "itunesQuery": "제로베이스원 GOOD SO BAD",
+    "itunesTrackId": 1762581259,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6f/87/a2/6f87a2f7-4b43-457e-8ab6-67d18f0d445a/mzaf_12606917803402962806.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/cd/f7/50/cdf75064-ce2e-5614-68f9-a577a3e7c793/198704105968_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "twice-131",
+    "category": "인기 아이돌",
+    "artist": "트와이스 (TWICE)",
+    "artistEn": "TWICE",
+    "artistAliases": [
+      "트와이스",
+      "TWICE"
+    ],
+    "title": "Talk that Talk",
+    "titleEn": "Talk that Talk",
+    "titleAliases": [
+      "Talk that Talk",
+      "톡댓톡"
+    ],
+    "koreanRead": "톡 댓 톡",
+    "releaseYear": "2022",
+    "album": "BETWEEN 1&2",
+    "lyricHint": "밀고 당기지 말고 솔직하게 말해줘 / L-O-V-E",
+    "trivia": "Y2K 감성의 경쾌한 비트와 트와이스의 사랑스러움이 담긴 대표 히트곡입니다.",
+    "itunesQuery": "트와이스 (TWICE) Talk that Talk",
+    "itunesTrackId": 1635656417,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/06/2d/af062de7-ce45-0e8f-d8b9-0ae4adf05bb4/mzaf_10856190615663409571.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/6d/80/45/6d8045ba-5b0e-c88a-0736-87fd14665e69/738676859874_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "nctdream-132",
+    "category": "인기 아이돌",
+    "artist": "NCT DREAM",
+    "artistEn": "NCT DREAM",
+    "artistAliases": [
+      "NCT DREAM",
+      "엔시티 드림"
+    ],
+    "title": "Smoothie",
+    "titleEn": "Smoothie",
+    "titleAliases": [
+      "Smoothie",
+      "스무디"
+    ],
+    "koreanRead": "스무디",
+    "releaseYear": "2024",
+    "album": "DREAM( )SCAPE - EP",
+    "lyricHint": "세상의 부정적인 시선을 갈아 마셔버려 / Smoothie",
+    "trivia": "808 베이스와 독특한 챈팅으로 음원 차트 1위를 차지한 NCT DREAM의 힙합 댄스곡입니다.",
+    "itunesQuery": "NCT DREAM Smoothie",
+    "itunesTrackId": 1766620528,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/9f/55/1b9f5557-e0b3-43e1-e21e-ca858bb137a3/mzaf_4431400973122300170.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/48/92/f3/4892f356-56c2-d311-8638-3536c1d08706/00888735947056_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "nctdream-133",
+    "category": "인기 아이돌",
+    "artist": "NCT DREAM",
+    "artistEn": "NCT DREAM",
+    "artistAliases": [
+      "NCT DREAM",
+      "엔시티 드림"
+    ],
+    "title": "Candy",
+    "titleEn": "Candy",
+    "titleAliases": [
+      "Candy",
+      "캔디"
+    ],
+    "koreanRead": "캔디",
+    "releaseYear": "2022",
+    "album": "Candy - Winter Special Mini Album - EP",
+    "lyricHint": "단지 널 사랑해 이렇게 말했지 / 머리 위에 눈송이",
+    "trivia": "H.O.T.의 전설적인 국민 댄스곡을 현대적으로 재해석해 전국을 들썩이게 한 리메이크 명곡입니다.",
+    "itunesQuery": "NCT DREAM Candy",
+    "itunesTrackId": 1658222132,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ae/c6/80/aec680cc-1eb1-f298-3a6a-9fd1040b3fe5/mzaf_2302057161762072219.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/41/0f/bd/410fbda4-aff9-9807-6014-f51bdd19fe3c/Digital_Cover_NCT_DREAM_Candy.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "babymonster-134",
+    "category": "인기 아이돌",
+    "artist": "베이비몬스터",
+    "artistEn": "BABYMONSTER",
+    "artistAliases": [
+      "베이비몬스터",
+      "베몬",
+      "BABYMONSTER"
+    ],
+    "title": "CLIK CLAK",
+    "titleEn": "CLIK CLAK",
+    "titleAliases": [
+      "CLIK CLAK",
+      "클릭 클락"
+    ],
+    "koreanRead": "클릭 클락",
+    "releaseYear": "2024",
+    "album": "DRIP",
+    "lyricHint": "멤버 전원이 랩에 참여한 힙하고 당당한 올드스쿨 힙합 트랙입니다.",
+    "trivia": "정규 1집 더블 타이틀곡으로 베몬의 묵직한 스웨그를 보여준 곡입니다.",
+    "itunesQuery": "베이비몬스터 CLIK CLAK",
+    "itunesTrackId": 1773262054,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/68/23/cf/6823cf5d-d1e8-8594-e50f-a2c4e15d7e91/mzaf_871128485928153146.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/b9/e1/ef/b9e1ef3a-e3eb-8152-e91b-20aca0fc9ffd/BM_DRIP_Digital-Cover_4000.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "gidle-136",
+    "category": "인기 아이돌",
+    "artist": "(여자)아이들",
+    "artistEn": "(G)I-DLE",
+    "artistAliases": [
+      "(여자)아이들",
+      "아이들",
+      "(G)I-DLE"
+    ],
+    "title": "Super Lady",
+    "titleEn": "Super Lady",
+    "titleAliases": [
+      "Super Lady",
+      "슈퍼 레이디"
+    ],
+    "koreanRead": "슈퍼 레이디",
+    "releaseYear": "2024",
+    "album": "2",
+    "lyricHint": "Follow ladies / 온 세상 당당한 여성들을 향한 찬가",
+    "trivia": "웅장한 드럼 비트와 소연의 폭발적인 인트로 샤우팅이 압도적인 곡입니다.",
+    "itunesQuery": "(여자)아이들 Super Lady",
+    "itunesTrackId": 1801725652,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/8b/af/248baf1c-0ec3-18e7-60f0-450e3fa75486/mzaf_16666085123936239867.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/52/34/27/5234273c-5585-261b-4fc5-b10cfd9bbd71/8804775368240.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "do-146",
+    "category": "2026 차트",
+    "artist": "디 오 (D.O.)",
+    "artistEn": "D.O.",
+    "artistAliases": [
+      "디오",
+      "도경수",
+      "D.O."
+    ],
+    "title": "Popcorn",
+    "titleEn": "Popcorn",
+    "titleAliases": [
+      "Popcorn",
+      "팝콘"
+    ],
+    "koreanRead": "팝콘",
+    "releaseYear": "2024",
+    "album": "BLOSSOM - THE 3RD MINI ALBUM - EP",
+    "lyricHint": "두근거리는 마음이 팝콘처럼 팡팡 터져",
+    "trivia": "도경수의 달콤한 꿀보컬과 통통 튀는 어쿠스틱 팝 멜로디가 매력적인 인기곡입니다.",
+    "itunesQuery": "디 오 (D.O.) Popcorn",
+    "itunesTrackId": 1743749267,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a8/42/0a/a8420a7e-d060-f908-d15c-bb57df421108/mzaf_14221130035911804642.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c8/f8/7c/c8f87c57-f335-2faa-5260-5bd6de49cc9f/191953349695.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "jannabi-156",
+    "category": "잔나비",
+    "artist": "잔나비",
+    "artistEn": "JANNABI",
+    "artistAliases": [
+      "잔나비",
+      "JANNABI"
+    ],
+    "title": "환상의 나라",
+    "titleEn": "The Land of Fantasy",
+    "titleAliases": [
+      "환상의 나라",
+      "환상의나라"
+    ],
+    "koreanRead": "환상의 나라",
+    "releaseYear": "2021",
+    "album": "The Land of Fantasy",
+    "lyricHint": "초록빛 언덕 너머 환상의 나라로 / 손잡고 걸어가요",
+    "trivia": "한 편의 뮤지컬처럼 환상적인 오케스트레이션이 돋보이는 정규 3집 타이틀곡입니다.",
+    "itunesQuery": "잔나비 환상의 나라",
+    "itunesTrackId": 1578636384,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/58/d3/05/58d305b8-3ded-ba11-ecf1-0e693003a957/mzaf_2240474972401165509.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2f/92/25/2f922513-0da1-5c2d-2ee2-c9cbca86457e/2.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "ive-157",
+    "category": "아이브",
+    "artist": "아이브",
+    "artistEn": "IVE",
+    "artistAliases": [
+      "아이브",
+      "IVE"
+    ],
+    "title": "All Night",
+    "titleEn": "All Night (feat. Saweetie)",
+    "titleAliases": [
+      "All Night",
+      "올 나이트"
+    ],
+    "koreanRead": "올 나이트",
+    "releaseYear": "2026",
+    "album": "Good Night Baby - White Noise for Peaceful Baby Sleep",
+    "lyricHint": "We can do this all night / 춤추자 이 밤이 새도록",
+    "trivia": "스웨덴 듀오 Icona Pop의 명곡을 아이브만의 화려한 보컬로 리메이크한 첫 영어 싱글입니다.",
+    "itunesQuery": "아이브 All Night",
+    "itunesTrackId": 6822183971,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5e/e9/75/5ee9759f-0323-12d4-e837-e715b41a2a5b/mzaf_2389298820347987122.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/c1/a2/ce/c1a2ce12-bc78-85ea-9421-e9cab9c76442/4550795559314_cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "aespa-158",
+    "category": "에스파",
+    "artist": "에스파",
+    "artistEn": "aespa",
+    "artistAliases": [
+      "에스파",
+      "aespa"
+    ],
+    "title": "Forever",
+    "titleEn": "Forever (약속)",
+    "titleAliases": [
+      "Forever",
+      "포에버",
+      "약속"
+    ],
+    "koreanRead": "포에버",
+    "releaseYear": "1960",
+    "album": "Forever - Single",
+    "lyricHint": "영원히 네 곁을 지켜줄게 / 따뜻한 겨울의 약속",
+    "trivia": "유영진의 원곡을 에스파의 맑은 음색과 어쿠스틱 발라드로 재해석한 감성적인 리메이크 곡입니다.",
+    "itunesQuery": "에스파 Forever",
+    "itunesTrackId": 1644992097,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ed/84/ba/ed84ba09-34a4-44ad-9b37-4e9e0c686dd7/mzaf_16218783942392814943.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/b0/f3/65/b0f36597-900f-bfe0-a21f-9b3d42a3cf32/196925587570.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "day6-159",
+    "category": "인기 아이돌",
+    "artist": "DAY6",
+    "artistEn": "DAY6",
+    "artistAliases": [
+      "DAY6",
+      "데이식스"
+    ],
+    "title": "바래",
+    "titleEn": "Wish",
+    "titleAliases": [
+      "바래"
+    ],
+    "koreanRead": "바래",
+    "releaseYear": "2016",
+    "album": "DAYDREAM - EP",
+    "lyricHint": "너 하나만 내 곁에 있기를 간절히 바래",
+    "trivia": "데이식스 특유의 짙은 감성과 시원한 밴드 연주가 돋보이는 콘서트 단골 트랙입니다.",
+    "itunesQuery": "DAY6 바래",
+    "itunesTrackId": 1689183518,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/34/1f/c5/341fc5d3-5b5a-5a8f-d37c-28af9c7830ba/mzaf_11837070976708811406.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/61/18/dd/6118ddc4-34fd-5e29-6f9e-9f29c3480e9a/738676856330_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "seventeen-160",
+    "category": "인기 아이돌",
+    "artist": "세븐틴",
+    "artistEn": "SEVENTEEN",
+    "artistAliases": [
+      "세븐틴",
+      "SEVENTEEN"
+    ],
+    "title": "음악의 신",
+    "titleEn": "God of Music",
+    "titleAliases": [
+      "음악의 신"
+    ],
+    "koreanRead": "음악의 신",
+    "releaseYear": "2023",
+    "album": "God of Light Music - Single",
+    "lyricHint": "쿵 치 팍 치 쿵 쿵 치 팍 치 예 / 음악의 신이 있다면 감사를",
+    "trivia": "음악이 주는 행복과 축제를 소울 펑크 리듬에 담아 전 세계를 축제로 만든 힐링 찬가입니다.",
+    "itunesQuery": "세븐틴 음악의 신",
+    "itunesTrackId": 1721236863,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bc/30/45/bc304502-5fa0-a95b-63b0-154575c04db8/mzaf_13621691845380995940.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/97/bb/26/97bb2659-8d2f-d574-191a-74f7b40648f6/196922762093_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "seventeen-161",
+    "category": "인기 아이돌",
+    "artist": "세븐틴",
+    "artistEn": "SEVENTEEN",
+    "artistAliases": [
+      "세븐틴",
+      "SEVENTEEN"
+    ],
+    "title": "MAESTRO",
+    "titleEn": "MAESTRO",
+    "titleAliases": [
+      "MAESTRO",
+      "마에스트로"
+    ],
+    "koreanRead": "마에스트로",
+    "releaseYear": "2003",
+    "album": "Para Siempre",
+    "lyricHint": "지휘봉을 들고 세상을 리드해 / Maestro",
+    "trivia": "세븐틴의 과거 명곡들을 오마주하며 음악 세계의 지휘자로 나선 베스트 앨범 타이틀곡입니다.",
+    "itunesQuery": "세븐틴 MAESTRO",
+    "itunesTrackId": 524664168,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e8/02/df/e802dfd5-bae2-effe-8ec3-f22d1d0e2654/mzaf_4000855783182427273.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/f7/92/d7/f792d7a8-89c8-0827-b5d3-0ab40207ca5a/AVA-851699150725-Los_Telez_Para_Siempre_20_exitos.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "kissoflife-162",
+    "category": "인기 아이돌",
+    "artist": "키스오브라이프",
+    "artistEn": "KISS OF LIFE",
+    "artistAliases": [
+      "키스오브라이프",
+      "키오프",
+      "KISS OF LIFE"
+    ],
+    "title": "Midas Touch",
+    "titleEn": "Midas Touch",
+    "titleAliases": [
+      "Midas Touch",
+      "마이더스 터치"
+    ],
+    "koreanRead": "마이더스 터치",
+    "releaseYear": "1986",
+    "album": "Headlines",
+    "lyricHint": "손끝만 닿아도 온 세상이 금빛으로 변해",
+    "trivia": "2000년대 정통 R&B 팝의 향수를 현대적으로 완벽하게 부활시킨 메가 히트곡입니다.",
+    "itunesQuery": "키스오브라이프 Midas Touch",
+    "itunesTrackId": 293070804,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/03/7d/ae/037daed0-890b-faa8-7887-ff9c9e8596c6/mzaf_8395644882693337099.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/e4/58/a5/e458a52e-1b35-e84b-4f35-93049a519b25/248.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "leemujin-163",
+    "category": "2026 차트",
+    "artist": "이무진",
+    "artistEn": "Lee Mujin",
+    "artistAliases": [
+      "이무진"
+    ],
+    "title": "청혼하지 않을 이유를 못 찾았어",
+    "titleEn": "Proposal",
+    "titleAliases": [
+      "청혼하지 않을 이유를 못 찾았어",
+      "청혼이"
+    ],
+    "koreanRead": "청혼하지 않을 이유를 못 찾았어",
+    "releaseYear": "2024",
+    "album": "K-POP PIANO 12 - EP",
+    "lyricHint": "너와 평생을 함께할 이유만이 내겐 가득해",
+    "trivia": "축가 계의 새로운 역사를 쓰며 수많은 연인들의 사랑을 받은 이무진의 프러포즈 송입니다.",
+    "itunesQuery": "이무진 청혼하지 않을 이유를 못 찾았어",
+    "itunesTrackId": 1772637726,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a9/72/32/a97232b5-633e-1e39-dcbd-278985fac04c/mzaf_3453165522134481579.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/10/7c/81/107c81c7-bb1f-0b04-7bd4-14a40ce5bbac/191953393124.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "woody-164",
+    "category": "2026 차트",
+    "artist": "우디 (Woody)",
+    "artistEn": "Woody",
+    "artistAliases": [
+      "우디",
+      "Woody"
+    ],
+    "title": "혹시 세상에 혼자 남겨진 것 같다면",
+    "titleEn": "If you feel alone",
+    "titleAliases": [
+      "혹시 세상에 혼자 남겨진 것 같다면"
+    ],
+    "koreanRead": "혹시 세상에 혼자 남겨진 것 같다면",
+    "releaseYear": "2024",
+    "album": "K-POP PIANO 4 - EP",
+    "lyricHint": "내가 네 곁에서 따뜻한 위로가 되어줄게",
+    "trivia": "지친 일상에 깊은 온기를 불어넣으며 역주행 돌풍을 일으킨 힐링 발라드입니다.",
+    "itunesQuery": "우디 (Woody) 혹시 세상에 혼자 남겨진 것 같다면",
+    "itunesTrackId": 1748515075,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/35/f0/64/35f06434-8919-e52d-0a84-bc1e6b04c8aa/mzaf_6398041288249956242.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6e/52/96/6e529672-299e-4979-c985-0f8b0a800b0f/191953367644.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "limyoungwoong-165",
+    "category": "2026 차트",
+    "artist": "임영웅",
+    "artistEn": "Lim Young Woong",
+    "artistAliases": [
+      "임영웅",
+      "Lim Young Woong"
+    ],
+    "title": "사랑은 늘 도망가",
+    "titleEn": "Love Always Flees",
+    "titleAliases": [
+      "사랑은 늘 도망가"
+    ],
+    "koreanRead": "사랑은 늘 도망가",
+    "releaseYear": "2010",
+    "album": "욕망의 불꽃 (Music from the Original TV Series)",
+    "lyricHint": "눈물이 나면 그냥 울어요 / 사랑은 늘 도망가니까",
+    "trivia": "드라마 <신사와 아가씨> OST로 수년간 음원 차트 최상위권을 굳건히 지킨 국민 애창곡입니다.",
+    "itunesQuery": "임영웅 사랑은 늘 도망가",
+    "itunesTrackId": 1798401184,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9a/70/91/9a7091e5-182c-2b1e-4acc-7f408b917c8f/mzaf_12537554281995175061.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7e/05/7e/7e057ebd-dac6-e8b2-77fc-b958fc93d01b/888618222850.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "soonsoonheegitae-166",
+    "category": "2026 차트",
+    "artist": "순순희 (기태)",
+    "artistEn": "SoonSoonHee (Gi Tae)",
+    "artistAliases": [
+      "순순희",
+      "기태"
+    ],
+    "title": "그대가 내 안에 박혔다",
+    "titleEn": "You embedded in me",
+    "titleAliases": [
+      "그대가 내 안에 박혔다",
+      "그내박"
+    ],
+    "koreanRead": "그대가 내 안에 박혔다",
+    "releaseYear": "2019",
+    "album": "인기 MR 반주, Vol. 6",
+    "lyricHint": "그대가 내 안에 깊이 박혀 / 지우려 해도 지워지지 않아",
+    "trivia": "폭발적인 고음과 처절한 가창력으로 노래방 차트와 음원 차트를 휩쓴 발라드입니다.",
+    "itunesQuery": "순순희 (기태) 그대가 내 안에 박혔다",
+    "itunesTrackId": 1562380124,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview124/v4/a2/7d/31/a27d31e8-9ce3-cc12-f196-7b36b9d83d5f/mzaf_13453935127375070013.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/eb/4d/f6/eb4df631-8662-7eea-4bc0-e69df011428f/3000.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "soonsoonheejihwan-167",
+    "category": "2026 차트",
+    "artist": "순순희 (지환)",
+    "artistEn": "SoonSoonHee (Ji Hwan)",
+    "artistAliases": [
+      "순순희",
+      "지환"
+    ],
+    "title": "슬픈 초대장",
+    "titleEn": "Sad Invitation",
+    "titleAliases": [
+      "슬픈 초대장"
+    ],
+    "koreanRead": "슬픈 초대장",
+    "releaseYear": "2003",
+    "album": "Travel ∞ Directions",
+    "lyricHint": "결혼식 청첩장을 받아 든 날의 아픈 심경을 노래한 순순희의 감성 발라드입니다.",
+    "trivia": "이별 후 옛 연인의 결혼 소식을 접한 슬픔을 담백하게 그려낸 히트곡입니다.",
+    "itunesQuery": "순순희 (지환) 슬픈 초대장",
+    "itunesTrackId": 1448341091,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fd/b2/94/fdb29476-feb6-456e-f5b7-9592e9050e83/mzaf_7228291417276804810.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/77/f8/18/77f81811-d207-f732-6482-7d36913a0701/8809522711782.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "gyeongseoyejijeongunho-168",
+    "category": "2026 차트",
+    "artist": "경서예지 & 전건호",
+    "artistEn": "GyeongseoYeji & Jeon Gunho",
+    "artistAliases": [
+      "경서예지",
+      "전건호"
+    ],
+    "title": "다정히 내 이름을 부르면",
+    "titleEn": "If you call my name gently",
+    "titleAliases": [
+      "다정히 내 이름을 부르면",
+      "다정히내이름을부르면"
+    ],
+    "koreanRead": "다정히 내 이름을 부르면",
+    "releaseYear": "2022",
+    "album": "엠알 베스트 콜렉션 2022, Vol. 02",
+    "lyricHint": "다정히 내 이름을 부르면 / 어디선가 널 향해 달려갈 텐데",
+    "trivia": "달콤한 듀엣 하모니로 노래방과 음원 차트에서 수년간 롱런 중인 국민 듀엣송입니다.",
+    "itunesQuery": "경서예지 & 전건호 다정히 내 이름을 부르면",
+    "itunesTrackId": 1619235308,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/c6/8c/86/c68c86af-02f1-357d-cc17-9b5257a30b44/mzaf_5783290385068637210.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/a9/93/8b/a9938bf8-2a64-4ddd-d45b-007db07e762e/asset.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "sungsikyungnaul-169",
+    "category": "2026 차트",
+    "artist": "성시경 & 나얼",
+    "artistEn": "Sung Si Kyung & Naul",
+    "artistAliases": [
+      "성시경",
+      "나얼"
+    ],
+    "title": "잠시라도 우리",
+    "titleEn": "Even for a moment",
+    "titleAliases": [
+      "잠시라도 우리"
+    ],
+    "koreanRead": "잠시라도 우리",
+    "releaseYear": "2024",
+    "album": "잠시라도 우리 - Single",
+    "lyricHint": "잠시라도 우리 다시 만날 수 있다면",
+    "trivia": "발라드의 황제 성시경과 소울의 장인 나얼의 세기의 만남으로 차트 1위를 올킬한 정통 발라드입니다.",
+    "itunesQuery": "성시경 & 나얼 잠시라도 우리",
+    "itunesTrackId": 1733622311,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/f2/b9/51/f2b95182-ea0c-2b9f-96c1-f996db7132e8/mzaf_12590004463100007684.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/bc/86/a3/bc86a315-1b27-5c0b-8540-fb2f531358ad/888618345962.png/600x600bb.jpg"
+  },
+  {
+    "id": "melomance-170",
+    "category": "2026 차트",
+    "artist": "멜로망스",
+    "artistEn": "MeloMance",
+    "artistAliases": [
+      "멜로망스",
+      "MeloMance"
+    ],
+    "title": "사랑인가 봐",
+    "titleEn": "Love, Maybe",
+    "titleAliases": [
+      "사랑인가 봐"
+    ],
+    "koreanRead": "사랑인가 봐",
+    "releaseYear": "2022",
+    "album": "Love, Maybe (A Business Proposal Original Soundtrack Special Track) - Single",
+    "lyricHint": "너와 함께 있으면 모든 세상이 아름다워 / 사랑인가 봐",
+    "trivia": "드라마 <사내맞선> OST로 국내외에서 메가 히트를 기록한 멜로망스의 달콤한 사랑 노래입니다.",
+    "itunesQuery": "멜로망스 사랑인가 봐",
+    "itunesTrackId": 1609910933,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/41/10/ee/4110ee0c-7e0b-b0c7-e6b3-1d5288dc377f/mzaf_1679421330560011573.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/50/f0/fc/50f0fcea-7360-47c0-37d6-4440e97e2862/cover_KM0014772_1.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "melomance-171",
+    "category": "2026 차트",
+    "artist": "멜로망스",
+    "artistEn": "MeloMance",
+    "artistAliases": [
+      "멜로망스",
+      "MeloMance"
+    ],
+    "title": "선물",
+    "titleEn": "Gift",
+    "titleAliases": [
+      "선물"
+    ],
+    "koreanRead": "선물",
+    "releaseYear": "2017",
+    "album": "Moonlight - EP",
+    "lyricHint": "빛이 되어준 너에게 / 내가 줄 수 있는 가장 큰 선물",
+    "trivia": "김민석의 사이다 고음과 정동환의 유려한 피아노가 빚어낸 멜로망스의 불후의 역주행 명곡입니다.",
+    "itunesQuery": "멜로망스 선물",
+    "itunesTrackId": 1598710381,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4f/dd/cc/4fddccff-52db-c28d-aa18-8ed3375c76f1/mzaf_13642041709941844693.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/cf/4a/a7/cf4aa700-fb5c-df67-4c8f-66d56d6f5c29/887928016876.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "10cm-172",
+    "category": "2026 차트",
+    "artist": "10CM",
+    "artistEn": "10CM",
+    "artistAliases": [
+      "10CM",
+      "십센치"
+    ],
+    "title": "그라데이션",
+    "titleEn": "Gradation",
+    "titleAliases": [
+      "그라데이션"
+    ],
+    "koreanRead": "그라데이션",
+    "releaseYear": "2022",
+    "album": "5.3 (Gradation) - Single",
+    "lyricHint": "달콤한 물감처럼 번져가는 너의 생각 / 그라데이션",
+    "trivia": "여름날의 풋풋한 짝사랑을 시원한 팝 사운드로 그려내 차트를 강타한 10CM의 대표곡입니다.",
+    "itunesQuery": "10CM 그라데이션",
+    "itunesTrackId": 1836310463,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5d/a5/e5/5da5e5ec-6594-f13f-d6f7-a4f9db7d9eee/mzaf_11604435796102988496.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/66/48/ec/6648ec7f-5c8e-88a3-1b1f-db7921480571/8804775229671.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "10cm-173",
+    "category": "2026 차트",
+    "artist": "10CM",
+    "artistEn": "10CM",
+    "artistAliases": [
+      "10CM",
+      "십센치"
+    ],
+    "title": "너랑 밤새고 싶어",
+    "titleEn": "Want to stay up all night",
+    "titleAliases": [
+      "너랑 밤새고 싶어"
+    ],
+    "koreanRead": "너랑 밤새고 싶어",
+    "releaseYear": "2024",
+    "album": "K-POP PIANO 2 - EP",
+    "lyricHint": "새벽이 와도 헤어지기 싫은 연인들의 마음을 담아낸 2024~2025 달달한 발라드입니다.",
+    "trivia": "10CM 특유의 독보적인 꿀보이스가 귓가를 간지럽히는 설렘 가득한 트랙입니다.",
+    "itunesQuery": "10CM 너랑 밤새고 싶어",
+    "itunesTrackId": 1748520905,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7e/b4/5c/7eb45ce8-b1cd-5422-0f53-4e79516c0af0/mzaf_6629492119633885930.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/de/bf/d8/debfd89a-0110-f309-5807-7632647919cb/191953367620.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "paulkim-174",
+    "category": "2026 차트",
+    "artist": "폴킴",
+    "artistEn": "Paul Kim",
+    "artistAliases": [
+      "폴킴",
+      "Paul Kim"
+    ],
+    "title": "모든 날 모든 순간",
+    "titleEn": "Every day, Every Moment",
+    "titleAliases": [
+      "모든 날 모든 순간"
+    ],
+    "koreanRead": "모든 날 모든 순간",
+    "releaseYear": "2018",
+    "album": "Should We Kiss First? (Original Television Soundtrack), Pt. 3 - Single",
+    "lyricHint": "모든 날 모든 순간 함께해 / 너의 모든 계절에 내가 있을게",
+    "trivia": "축가 부동의 1위이자 수많은 이들의 인생곡으로 꼽히는 폴킴의 대표 발라드입니다.",
+    "itunesQuery": "폴킴 모든 날 모든 순간",
+    "itunesTrackId": 1360245440,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fd/02/65/fd026582-acff-107b-657e-725e82ade606/mzaf_13214848125267621317.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fb/45/a5/fb45a5f3-e172-f3c7-05df-733d16c8fc31/OST3_A_Fin.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "paulkim-175",
+    "category": "2026 차트",
+    "artist": "폴킴",
+    "artistEn": "Paul Kim",
+    "artistAliases": [
+      "폴킴",
+      "Paul Kim"
+    ],
+    "title": "너를 만나",
+    "titleEn": "Me After You",
+    "titleAliases": [
+      "너를 만나"
+    ],
+    "koreanRead": "너를 만나",
+    "releaseYear": "2018",
+    "album": "Me After You - Single",
+    "lyricHint": "너를 만나 참 행복했어 / 나 이토록 사랑할 수 있었던 건",
+    "trivia": "진정한 사랑의 가치를 담백하고 진솔하게 노래해 음원 차트 1위를 올킬한 명곡입니다.",
+    "itunesQuery": "폴킴 너를 만나",
+    "itunesTrackId": 1732909766,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/10/3b/0d/103b0d88-91f7-8995-f53a-ecedcafedb7d/mzaf_12519402530741202598.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/a5/b2/8e/a5b28ea5-ca18-d328-dc68-87224279a84c/191953335933.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "younha-176",
+    "category": "2026 차트",
+    "artist": "윤하",
+    "artistEn": "Younha",
+    "artistAliases": [
+      "윤하",
+      "Younha"
+    ],
+    "title": "사건의 지평선",
+    "titleEn": "Event Horizon",
+    "titleAliases": [
+      "사건의 지평선"
+    ],
+    "koreanRead": "사건의 지평선",
+    "releaseYear": "2022",
+    "album": "YOUNHA 6th Album Repackage 'END THEORY : Final Edition'",
+    "lyricHint": "저기 사라진 별의 자리 / 아스라이 하얀 빛 / 사건의 지평선 너머로",
+    "trivia": "우주 천문학적 모티브와 폭발적인 가창력으로 역사적인 차트 올킬 역주행을 쓴 역작입니다.",
+    "itunesQuery": "윤하 사건의 지평선",
+    "itunesTrackId": 1616649362,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/32/dd/f3/32ddf3ff-8170-bae6-043c-5a50d02705c4/mzaf_11074393104542524889.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/43/cd/c8/43cdc862-d91b-de64-9d21-e6f6a16fbf61/cover_KM0014976_1.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "choyongpil-177",
+    "category": "2026 차트",
+    "artist": "조용필",
+    "artistEn": "Cho Yong Pil",
+    "artistAliases": [
+      "조용필"
+    ],
+    "title": "그래도 돼",
+    "titleEn": "It's Okay",
+    "titleAliases": [
+      "그래도 돼"
+    ],
+    "koreanRead": "그래도 돼",
+    "releaseYear": "2018",
+    "album": "가끔, 그래도 돼 - Single",
+    "lyricHint": "잠시 쉬어가도 돼 / 늦어도 돼 / 그래도 돼",
+    "trivia": "가왕 조용필의 정규 20집 타이틀곡으로 모든 세대를 따뜻하게 안아준 국민 힐링송입니다.",
+    "itunesQuery": "조용필 그래도 돼",
+    "itunesTrackId": 1649992689,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview112/v4/e8/87/70/e8877067-67bc-b06c-41b0-6285de5992b7/mzaf_10787163443270550224.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9c/fc/85/9cfc85b6-f8ee-f353-4720-ddb126944fd7/8809596433153_cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "jimin-178",
+    "category": "2026 차트",
+    "artist": "지민 (Jimin)",
+    "artistEn": "Jimin",
+    "artistAliases": [
+      "지민",
+      "방탄소년단",
+      "Jimin"
+    ],
+    "title": "Who",
+    "titleEn": "Who",
+    "titleAliases": [
+      "Who",
+      "후"
+    ],
+    "koreanRead": "후",
+    "releaseYear": "2024",
+    "album": "MUSE",
+    "lyricHint": "Where are you? Who is my heart waiting for? / 내 심장이 기다리는 진정한 사랑",
+    "trivia": "2024년 발표되어 빌보드 핫100 상위권을 장기 집권한 지민의 감각적인 R&B 팝 트랙입니다.",
+    "itunesQuery": "지민 (Jimin) Who",
+    "itunesTrackId": 1751773093,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/e0/4c/2e/e04c2ec5-a0b7-931d-650b-88835b2581f7/mzaf_2267478480024914666.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/b5/84/94b58450-a0cd-ab97-2f30-0ed3608b5e24/196922987588_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "taeyeon-179",
+    "category": "2026 차트",
+    "artist": "태연 (TAEYEON)",
+    "artistEn": "TAEYEON",
+    "artistAliases": [
+      "태연",
+      "TAEYEON",
+      "소녀시대"
+    ],
+    "title": "To. X",
+    "titleEn": "To. X",
+    "titleAliases": [
+      "To. X",
+      "투엑스"
+    ],
+    "koreanRead": "투 엑스",
+    "releaseYear": "2023",
+    "album": "To. X - The 5th Mini Album - EP",
+    "lyricHint": "나를 조종하던 널 벗어나 / Good boy, bad girl, to my X",
+    "trivia": "알앤비 비트 위에 이별의 후련함과 냉철한 감정을 담아내 롱런 1위를 달성한 히트곡입니다.",
+    "itunesQuery": "태연 (TAEYEON) To. X",
+    "itunesTrackId": 1717568642,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1b/99/56/1b99563a-174b-5492-6502-3b6fba548ece/mzaf_14706015100369008640.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c7/1b/47/c71b47c7-4ea1-4eb9-8825-cbe87f68b6fd/cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "taeyeon-180",
+    "category": "2026 차트",
+    "artist": "태연 (TAEYEON)",
+    "artistEn": "TAEYEON",
+    "artistAliases": [
+      "태연",
+      "TAEYEON",
+      "소녀시대"
+    ],
+    "title": "Letter To Myself",
+    "titleEn": "Letter To Myself",
+    "titleAliases": [
+      "Letter To Myself",
+      "레터 투 마이셀프"
+    ],
+    "koreanRead": "레터 투 마이셀프",
+    "releaseYear": "2026",
+    "album": "Dear Diary: We Survived It",
+    "lyricHint": "과거의 나에게 보내는 따뜻한 응원의 편지",
+    "trivia": "2024년 말 발매되어 태연의 폭발적인 팝 록 가창력을 유감없이 발휘한 최신 명곡입니다.",
+    "itunesQuery": "태연 (TAEYEON) Letter To Myself",
+    "itunesTrackId": 6783927789,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/53/cf/f4/53cff474-f7a7-bdc2-d351-1e693d181c3f/mzaf_621000679285663422.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/ef/a7/ba/efa7ba39-210e-bb9d-3c8c-7c538f2ebd52/881392185656.png/600x600bb.jpg"
+  },
+  {
+    "id": "taeyeon-181",
+    "category": "2026 차트",
+    "artist": "태연 (TAEYEON)",
+    "artistEn": "TAEYEON",
+    "artistAliases": [
+      "태연",
+      "TAEYEON",
+      "소녀시대"
+    ],
+    "title": "사계",
+    "titleEn": "Four Seasons",
+    "titleAliases": [
+      "사계",
+      "Four Seasons"
+    ],
+    "koreanRead": "사계",
+    "releaseYear": "2019",
+    "album": "Four Seasons - Single",
+    "lyricHint": "사계절이 지나도 우린 변해버렸네 / I gave you the world",
+    "trivia": "어쿠스틱 기타와 태연의 매혹적인 보컬이 어우러져 사계절 내내 사랑받는 대표 발라드입니다.",
+    "itunesQuery": "태연 (TAEYEON) 사계",
+    "itunesTrackId": 1457283876,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d6/63/94/d663943c-fd3d-7059-bc74-90face13b046/mzaf_2727666806646476786.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/c2/9b/bf/c29bbf3a-b9b2-c571-152e-b851784dc319/TAEYEON_Four_Seasons_Cover_Art.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "iu-182",
+    "category": "2026 차트",
+    "artist": "아이유 (IU)",
+    "artistEn": "IU",
+    "artistAliases": [
+      "아이유",
+      "IU"
+    ],
+    "title": "Love wins all",
+    "titleEn": "Love wins all",
+    "titleAliases": [
+      "Love wins all",
+      "러브 윈즈 올"
+    ],
+    "koreanRead": "러브 윈즈 올",
+    "releaseYear": "2024",
+    "album": "Love wins all - Single",
+    "lyricHint": "험난한 세상에서도 결국 사랑이 모든 것을 이겨낸다 / Love wins all",
+    "trivia": "뷔(V)와의 뮤직비디오로 화제를 모으며 2024년 차트 1위를 올킬한 웅장한 대서사 발라드입니다.",
+    "itunesQuery": "아이유 (IU) Love wins all",
+    "itunesTrackId": 1726888402,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/94/79/f5/9479f56a-ac54-6449-3603-0645090bb3c1/mzaf_7391528050042328078.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/e3/56/1e/e3561eb5-de12-790d-569b-53fa22e6b491/cover_KM0019422_1.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "iu-183",
+    "category": "2026 차트",
+    "artist": "아이유 (IU)",
+    "artistEn": "IU",
+    "artistAliases": [
+      "아이유",
+      "IU"
+    ],
+    "title": "홀씨",
+    "titleEn": "Holssi",
+    "titleAliases": [
+      "홀씨"
+    ],
+    "koreanRead": "홀씨",
+    "releaseYear": "2024",
+    "album": "The Winning - EP",
+    "lyricHint": "하늘로 날아오르는 작은 홀씨처럼 / 자유롭게 피어나",
+    "trivia": "미니 6집 The Winning의 더블 타이틀곡으로 힙합 비트와 아이유의 다채로운 매력이 돋보이는 곡입니다.",
+    "itunesQuery": "아이유 (IU) 홀씨",
+    "itunesTrackId": 1731352615,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/38/6f/b2386f32-3eed-a099-044a-2944430c1b5d/mzaf_8465968415111905068.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3e/43/d2/3e43d2dc-acd4-5db6-9ae7-99299a044584/cover_KM0019422_1.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "iu-184",
+    "category": "2026 차트",
+    "artist": "아이유 (IU)",
+    "artistEn": "IU",
+    "artistAliases": [
+      "아이유",
+      "IU"
+    ],
+    "title": "밤편지",
+    "titleEn": "Through the Night",
+    "titleAliases": [
+      "밤편지"
+    ],
+    "koreanRead": "밤편지",
+    "releaseYear": "2017",
+    "album": "Through the Night - Single",
+    "lyricHint": "이 밤 그날의 반딧불을 당신의 창 가까이 보낼게요",
+    "trivia": "한국 대중음악사에 길이 남을 서정성의 극치이자 아이유의 불후의 명곡입니다.",
+    "itunesQuery": "아이유 (IU) 밤편지",
+    "itunesTrackId": 1219218446,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5a/43/d5/5a43d5c0-8b9a-2a91-dd9c-405bfd51b82f/mzaf_2888874735741039485.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/dc/12/fe/dc12fe03-172b-a843-0d96-12819fa05b6c/cover-.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "iu-185",
+    "category": "2026 차트",
+    "artist": "아이유 (IU)",
+    "artistEn": "IU",
+    "artistAliases": [
+      "아이유",
+      "IU"
+    ],
+    "title": "에잇",
+    "titleEn": "eight (Prod.&Feat. SUGA of BTS)",
+    "titleAliases": [
+      "에잇",
+      "eight"
+    ],
+    "koreanRead": "에잇",
+    "releaseYear": "2020",
+    "album": "eight (feat. SUGA) - Single",
+    "lyricHint": "우리는 오렌지 태양 아래 그림자 없이 함께 춤을 춰",
+    "trivia": "방탄소년단 슈가와의 공동 작업으로 스물여덟 살의 찬란함과 상실을 팝 록으로 노래한 명곡입니다.",
+    "itunesQuery": "아이유 (IU) 에잇",
+    "itunesTrackId": 1511885178,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b7/70/da/b770dac6-f957-d045-af12-ebff80578aa4/mzaf_13656583148299369335.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6b/65/4d/6b654d71-ed85-c6c4-8fe2-ef3d8e9f2ee0/cover_-.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "iu-186",
+    "category": "2026 차트",
+    "artist": "아이유 (IU)",
+    "artistEn": "IU",
+    "artistAliases": [
+      "아이유",
+      "IU"
+    ],
+    "title": "좋은 날",
+    "titleEn": "Good Day",
+    "titleAliases": [
+      "좋은 날"
+    ],
+    "koreanRead": "좋은 날",
+    "releaseYear": "2010",
+    "album": "Real",
+    "lyricHint": "나는요 오빠가 좋은걸 어떡해 / 3단 고음의 전설",
+    "trivia": "아이유를 국민 여동생 반열에 올려놓은 전설의 3단 고음 메가 히트곡입니다.",
+    "itunesQuery": "아이유 (IU) 좋은 날",
+    "itunesTrackId": 409076748,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/12/de/86/12de86be-3968-e309-f4da-3e624ec4ff49/mzaf_11516704482831655132.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/6d/2e/c9/6d2ec954-d8d8-b26a-1a8f-def6026815c5/mzi.orccormf.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "bts-187",
+    "category": "2026 차트",
+    "artist": "방탄소년단 (BTS)",
+    "artistEn": "BTS",
+    "artistAliases": [
+      "방탄소년단",
+      "BTS"
+    ],
+    "title": "봄날",
+    "titleEn": "Spring Day",
+    "titleAliases": [
+      "봄날",
+      "Spring Day"
+    ],
+    "koreanRead": "봄날",
+    "releaseYear": "2017",
+    "album": "YOU NEVER WALK ALONE",
+    "lyricHint": "보고 싶다 이렇게 말하니까 더 보고 싶다 / 벚꽃이 피나 봐요",
+    "trivia": "멜론 역사상 가장 오랫동안 차트에 머문 명실상부한 대한민국 국민 위로곡입니다.",
+    "itunesQuery": "방탄소년단 (BTS) 봄날",
+    "itunesTrackId": 1596529381,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ba/76/d5/ba76d586-0dac-c800-f08d-467aef7dc9c0/mzaf_12707603572181808804.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ce/fb/eb/cefbebd4-d53b-8d6c-33cf-2ee55408bd79/8804775077494_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "bts-188",
+    "category": "2026 차트",
+    "artist": "방탄소년단 (BTS)",
+    "artistEn": "BTS",
+    "artistAliases": [
+      "방탄소년단",
+      "BTS"
+    ],
+    "title": "Dynamite",
+    "titleEn": "Dynamite",
+    "titleAliases": [
+      "Dynamite",
+      "다이너마이트"
+    ],
+    "koreanRead": "다이너마이트",
+    "releaseYear": "2020",
+    "album": "BE",
+    "lyricHint": "Light it up like dynamite / 디스코 팝의 활기찬 에너지",
+    "trivia": "한국 가수 최초로 빌보드 핫100 1위를 차지하며 전 세계를 희망으로 물들인 역사적인 곡입니다.",
+    "itunesQuery": "방탄소년단 (BTS) Dynamite",
+    "itunesTrackId": 1596532400,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a3/a0/a6/a3a0a6b5-4715-b872-1aff-21e42634d9cd/mzaf_7224423421767640589.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/22/f3/8f/22f38fb9-1690-326a-d891-7aa946c2b06f/195497623273_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "jannabi-189",
+    "category": "잔나비",
+    "artist": "잔나비",
+    "artistEn": "JANNABI",
+    "artistAliases": [
+      "잔나비",
+      "JANNABI"
+    ],
+    "title": "나의 기쁨 나의 노래",
+    "titleEn": "Joy and Song",
+    "titleAliases": [
+      "나의 기쁨 나의 노래",
+      "나기나노"
+    ],
+    "koreanRead": "나의 기쁨 나의 노래",
+    "releaseYear": "2026",
+    "album": "CCM for All Vol. 3 : Rhythms of Praise",
+    "lyricHint": "내가 만약 지칠 때면 밤하늘의 별을 보며 / 나의 기쁨 나의 노래",
+    "trivia": "정규 2집의 감동적인 소품집 트랙으로 팬들과 나눈 진심 어린 약속의 노래입니다.",
+    "itunesQuery": "잔나비 나의 기쁨 나의 노래",
+    "itunesTrackId": 1864853060,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/37/64/d2/3764d276-3b52-d7e7-0d70-eb9d6d4b720c/mzaf_4444156408265868060.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/04/d7/9d/04d79dfa-cde1-2197-3b9f-c0949624669b/8800334188953.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "ive-190",
+    "category": "아이브",
+    "artist": "아이브",
+    "artistEn": "IVE",
+    "artistAliases": [
+      "아이브",
+      "IVE"
+    ],
+    "title": "NOT YOUR GIRL",
+    "titleEn": "NOT YOUR GIRL",
+    "titleAliases": [
+      "NOT YOUR GIRL",
+      "낫 유어 걸"
+    ],
+    "koreanRead": "낫 유어 걸",
+    "releaseYear": "2023",
+    "album": "I've IVE",
+    "lyricHint": "더 이상 너만의 소녀가 아니야 / 당당한 선언",
+    "trivia": "정규 1집 수록곡으로 콘서트와 팬미팅에서 폭발적인 떼창을 이끌어낸 밝은 에너지의 곡입니다.",
+    "itunesQuery": "아이브 NOT YOUR GIRL",
+    "itunesTrackId": 1680048020,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/10/1d/6e/101d6e0d-1037-b82e-5c8d-dcb743164746/mzaf_927660043488076658.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/3a/23/b7/3a23b7f4-0b43-df9d-b7e4-14f992443324/197188335663.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "illit-191",
+    "category": "아일릿",
+    "artist": "아일릿",
+    "artistEn": "ILLIT",
+    "artistAliases": [
+      "아일릿",
+      "ILLIT"
+    ],
+    "title": "My World",
+    "titleEn": "My World",
+    "titleAliases": [
+      "My World",
+      "마이 월드"
+    ],
+    "koreanRead": "마이 월드",
+    "releaseYear": "2024",
+    "album": "SUPER REAL ME - EP",
+    "lyricHint": "내 세상 속으로 너를 초대해 / 엉뚱하고 귀여운 상상",
+    "trivia": "데뷔 앨범 SUPER REAL ME의 포문을 여는 톡톡 튀는 인트로 명곡입니다.",
+    "itunesQuery": "아일릿 My World",
+    "itunesTrackId": 1734500890,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/17/73/89/1773894e-27f5-8217-60ce-c27a63fcb7cf/mzaf_2444691776742617323.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/3e/49/1e/3e491e43-4961-21ab-2abe-37fb1c0feb40/196922879227_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "akmu-192",
+    "category": "악뮤",
+    "artist": "악뮤",
+    "artistEn": "AKMU",
+    "artistAliases": [
+      "악뮤",
+      "악동뮤지션",
+      "AKMU"
+    ],
+    "title": "RE-BYE",
+    "titleEn": "RE-BYE",
+    "titleAliases": [
+      "RE-BYE",
+      "리바이"
+    ],
+    "koreanRead": "리바이",
+    "releaseYear": "2016",
+    "album": "SPRING - EP",
+    "lyricHint": "익숙해진 이별에 상처받지 않으려 / Re-bye",
+    "trivia": "재즈 팝 장르를 악뮤만의 천재적인 감각으로 풀어낸 사춘기 상(思春記 上) 타이틀곡입니다.",
+    "itunesQuery": "악뮤 RE-BYE",
+    "itunesTrackId": 1315910780,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c4/41/0f/c4410f74-4d62-4ec2-becf-9ec964ce5643/mzaf_3371541112036836184.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/26/91/a5/2691a522-ccac-9eb4-e157-d58150175a38/160503_AKMU_DS.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "akmu-193",
+    "category": "악뮤",
+    "artist": "악뮤",
+    "artistEn": "AKMU",
+    "artistAliases": [
+      "악뮤",
+      "악동뮤지션",
+      "AKMU"
+    ],
+    "title": "사람들이 움직이는 게",
+    "titleEn": "How People Move",
+    "titleAliases": [
+      "사람들이 움직이는 게",
+      "사움게"
+    ],
+    "koreanRead": "사람들이 움직이는 게",
+    "releaseYear": "2016",
+    "album": "SPRING - EP",
+    "lyricHint": "사람들이 움직이는 게 신기해 / 팔다리가 척척",
+    "trivia": "일상의 소소한 관찰을 재치 있고 펑키한 브라스 리듬으로 노래한 히트곡입니다.",
+    "itunesQuery": "악뮤 사람들이 움직이는 게",
+    "itunesTrackId": 1315910781,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a8/4b/00/a84b00fd-e97d-4004-177c-d819881afea9/mzaf_3324737964558419680.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/26/91/a5/2691a522-ccac-9eb4-e157-d58150175a38/160503_AKMU_DS.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "plave-194",
+    "category": "인기 아이돌",
+    "artist": "플레이브 (PLAVE)",
+    "artistEn": "PLAVE",
+    "artistAliases": [
+      "플레이브",
+      "PLAVE"
+    ],
+    "title": "Merry PLLIstmas",
+    "titleEn": "Merry PLLIstmas",
+    "titleAliases": [
+      "Merry PLLIstmas",
+      "메리 플리스마스"
+    ],
+    "koreanRead": "메리 플리스마스",
+    "releaseYear": "2023",
+    "album": "Merry PLLIstmas - Single",
+    "lyricHint": "하얀 눈이 내리는 날 너와 함께하는 크리스마스",
+    "trivia": "플레이브가 팬들에게 선물한 따스하고 포근한 겨울 윈터 캐럴송입니다.",
+    "itunesQuery": "플레이브 (PLAVE) Merry PLLIstmas",
+    "itunesTrackId": 1720118406,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/24/d8/95/24d8957f-c9fa-3491-d368-47cfb8ed7144/mzaf_8841871379148731201.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/04/5c/ed/045ced05-3769-f0f3-fba0-9d2070b4db65/8809973507187_cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "kissoflife-195",
+    "category": "인기 아이돌",
+    "artist": "키스오브라이프",
+    "artistEn": "KISS OF LIFE",
+    "artistAliases": [
+      "키스오브라이프",
+      "키오프",
+      "KISS OF LIFE"
+    ],
+    "title": "Get Loud",
+    "titleEn": "Get Loud",
+    "titleAliases": [
+      "Get Loud",
+      "겟 라우드"
+    ],
+    "koreanRead": "겟 라우드",
+    "releaseYear": "1999",
+    "album": "On The 6",
+    "lyricHint": "목소리를 더 높여 세상에 외쳐봐 / Get loud",
+    "trivia": "자신들의 진정한 목소리를 당당하게 표현한 미니 3집 타이틀곡입니다.",
+    "itunesQuery": "키스오브라이프 Get Loud",
+    "itunesTrackId": 265144078,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/83/67/b6/8367b6c9-409f-5715-297a-8ae487eb810b/mzaf_490135022279424240.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c7/f4/6d/c7f46dbd-bc8d-7a7a-cf66-4b96dc59e105/888880316592.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "carthegarden-196",
+    "category": "2026 차트",
+    "artist": "카더가든",
+    "artistEn": "Car, the garden",
+    "artistAliases": [
+      "카더가든",
+      "차정원"
+    ],
+    "title": "가까운 듯 먼 그대여",
+    "titleEn": "Closely far away",
+    "titleAliases": [
+      "가까운 듯 먼 그대여"
+    ],
+    "koreanRead": "가까운 듯 먼 그대여",
+    "releaseYear": "2022",
+    "album": "엠알 베스트 콜렉션 2021, Vol. 31",
+    "lyricHint": "손닿을 듯하지만 닿지 않는 애절한 마음",
+    "trivia": "카더가든 특유의 빈티지한 음색과 가슴을 후벼파는 멜로디의 롱런 차트 발라드입니다.",
+    "itunesQuery": "카더가든 가까운 듯 먼 그대여",
+    "itunesTrackId": 1621219806,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/11/41/55/11415512-da4d-b24a-c552-f8ef0a3897a7/mzaf_9563147376205135001.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3e/30/9e/3e309e7c-b327-6031-66e6-e1f48e18d666/asset.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "choiyuree-197",
+    "category": "2026 차트",
+    "artist": "최유리",
+    "artistEn": "Choi Yu Ree",
+    "artistAliases": [
+      "최유리"
+    ],
+    "title": "숲",
+    "titleEn": "Forest",
+    "titleAliases": [
+      "숲"
+    ],
+    "koreanRead": "숲",
+    "releaseYear": "2012",
+    "album": "숲 (Forest) - EP",
+    "lyricHint": "내 맘속에 자라난 깊은 숲속으로",
+    "trivia": "김수현 등이 추천하며 전국적인 힐링 역주행을 일으킨 담담하고 맑은 위로의 노래입니다.",
+    "itunesQuery": "최유리 숲",
+    "itunesTrackId": 581451082,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a7/ec/2c/a7ec2cd3-dea6-6a79-1000-b85341481d7d/mzaf_3712931532132459271.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/9a/c9/4b/9ac94b75-b1bf-25f3-56ab-0248ed018e39/cover_KM0001844_1.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "kimminseok-198",
+    "category": "2026 차트",
+    "artist": "김민석 (멜로망스)",
+    "artistEn": "Kim Minseok",
+    "artistAliases": [
+      "김민석",
+      "멜로망스"
+    ],
+    "title": "취중고백",
+    "titleEn": "Drunken Confession",
+    "titleAliases": [
+      "취중고백"
+    ],
+    "koreanRead": "취중고백",
+    "releaseYear": "2009",
+    "album": "New Beginning, Pt. 1 - EP",
+    "lyricHint": "취기를 빌려 오늘 너에게 고백할게",
+    "trivia": "필의 명곡을 김민석의 독보적인 고음과 감성으로 재해석해 1위를 장기 집권한 히트곡입니다.",
+    "itunesQuery": "김민석 (멜로망스) 취중고백",
+    "itunesTrackId": 1565365047,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/0d/44/1b/0d441b89-25c2-b423-7e33-1c84e18838d1/mzaf_5007522698136052671.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/96/37/0a/96370aa0-6367-2104-659b-716f0b8975b9/8806384506280.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "lesserafim-199",
+    "category": "르세라핌",
+    "artist": "르세라핌",
+    "artistEn": "LE SSERAFIM",
+    "artistAliases": [
+      "르세라핌",
+      "LE SSERAFIM"
+    ],
+    "title": "1-800-hot-n-fun",
+    "titleEn": "1-800-hot-n-fun",
+    "titleAliases": [
+      "1-800-hot-n-fun",
+      "핫앤펀"
+    ],
+    "koreanRead": "원 에이트 헌드레드 핫 앤 펀",
+    "releaseYear": "2024",
+    "album": "CRAZY - EP",
+    "lyricHint": "Where the heck is Saki? / 1-800-hot-n-fun",
+    "trivia": "코첼라 페스티벌에서 최초 공개되어 뜨거운 반응을 이끌어낸 록 감성의 신나는 트랙입니다.",
+    "itunesQuery": "LE SSERAFIM 1-800-hot-n-fun",
+    "itunesTrackId": 1763658330,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d7/98/4a/d7984acc-ec3d-702a-b712-f24a492c380d/mzaf_8154997953251408819.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/38/95/ed/3895ed80-ba5b-7846-ce5b-b49805a818ef/198704101359_Cover.jpg/600x600bb.jpg"
+  },
+  {
+    "id": "lesserafim-200",
+    "category": "르세라핌",
+    "artist": "르세라핌",
+    "artistEn": "LE SSERAFIM",
+    "artistAliases": [
+      "르세라핌",
+      "LE SSERAFIM"
+    ],
+    "title": "Swan Song",
+    "titleEn": "Swan Song",
+    "titleAliases": [
+      "Swan Song",
+      "스완 송",
+      "스완송"
+    ],
+    "koreanRead": "스완 송",
+    "releaseYear": "2024",
+    "album": "EASY - EP",
+    "lyricHint": "물 밑에선 발버둥 쳐도 / 우아하게 날아올라",
+    "trivia": "백조의 호수를 모티브로 보이지 않는 곳에서의 치열한 노력을 감성적인 모던 트랩으로 풀어낸 명곡입니다.",
+    "itunesQuery": "LE SSERAFIM Swan Song",
+    "itunesTrackId": 1728928907,
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cb/82/6f/cb826f2e-96b8-462e-a01e-a90470a7a43b/mzaf_10944003730126806103.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/22/0f/fd/220ffdbf-152c-5b65-d5af-01256c1328c2/196922796531_Cover.jpg/600x600bb.jpg"
   }
 ];
 
 // 초성 필드를 자동으로 채워서 SONGS 배열 완성
+
+
+
+
 const SONGS = RAW_SONGS.map((song) => ({
   ...song,
   artistChoseong: makeTileChoseong(song.artist, song.artist),

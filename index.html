@@ -37,7 +37,7 @@
           🔀 랜덤 섞기
         </button>
         <button id="listOpenBtn" type="button" class="icon-btn" title="현재 덱 전체 곡 도감 보기">
-          💿 수록곡 도감 (<span id="modalListCount">80</span>)
+          💿 수록곡 도감 (<span id="modalListCount">200</span>)
         </button>
       </div>
     </header>
@@ -58,7 +58,7 @@
           <span class="summary-title">⚙️ 가수 · 차트 · 문제 수 설정</span>
           <span class="summary-hint">(클릭하여 펼치기)</span>
         </span>
-        <span id="quizModeBadge" class="quiz-mode-badge">전체 인기곡 · 전체 80곡</span>
+        <span id="quizModeBadge" class="quiz-mode-badge">전체 인기곡 · 전체 200곡</span>
       </summary>
 
       <div class="filter-toolbar" aria-label="퀴즈 설정 필터">
@@ -67,14 +67,16 @@
           <div class="category-filter-wrapper">
             <span class="filter-label">🎤 가수 · 차트:</span>
             <div class="category-chips" id="categoryChips">
-              <button type="button" class="category-chip-btn active" data-category="ALL">🌟 전체 (80)</button>
-              <button type="button" class="category-chip-btn" data-category="잔나비">🎸 잔나비 (10)</button>
-              <button type="button" class="category-chip-btn" data-category="아이브">👑 아이브 (11)</button>
-              <button type="button" class="category-chip-btn" data-category="아일릿">🧲 아일릿 (7)</button>
-              <button type="button" class="category-chip-btn" data-category="에스파">⚡ 에스파 (10)</button>
-              <button type="button" class="category-chip-btn" data-category="악뮤">🍀 악뮤 (9)</button>
-              <button type="button" class="category-chip-btn" data-category="인기 아이돌">💎 인기 아이돌 (17)</button>
-              <button type="button" class="category-chip-btn" data-category="2026 차트">🔥 2025·2026 차트 (16)</button>
+              <button type="button" class="category-chip-btn active" data-category="ALL">🌟 전체 (200)</button>
+              <button type="button" class="category-chip-btn" data-category="잔나비">🎸 잔나비 (15)</button>
+              <button type="button" class="category-chip-btn" data-category="아이브">👑 아이브 (15)</button>
+              <button type="button" class="category-chip-btn" data-category="르세라핌">⚡ 르세라핌 (15)</button>
+              <button type="button" class="category-chip-btn" data-category="리센느">🌸 리센느 (8)</button>
+              <button type="button" class="category-chip-btn" data-category="에스파">🌌 에스파 (15)</button>
+              <button type="button" class="category-chip-btn" data-category="아일릿">🧲 아일릿 (8)</button>
+              <button type="button" class="category-chip-btn" data-category="악뮤">🍀 악뮤 (12)</button>
+              <button type="button" class="category-chip-btn" data-category="인기 아이돌">💎 인기 아이돌 (50)</button>
+              <button type="button" class="category-chip-btn" data-category="2026 차트">🔥 2025·2026 차트 (62)</button>
             </div>
           </div>
         </div>
@@ -87,7 +89,8 @@
               <button type="button" class="count-chip-btn" data-count="10">10곡</button>
               <button type="button" class="count-chip-btn" data-count="20">20곡</button>
               <button type="button" class="count-chip-btn" data-count="30">30곡</button>
-              <button type="button" class="count-chip-btn active" data-count="ALL">전체 (<span id="totalPoolCount">80</span>곡)</button>
+              <button type="button" class="count-chip-btn" data-count="50">50곡</button>
+              <button type="button" class="count-chip-btn active" data-count="ALL">전체 (<span id="totalPoolCount">200</span>곡)</button>
             </div>
           </div>
         </div>
@@ -97,7 +100,7 @@
     <!-- 진행 상태 바 -->
     <section class="progress-section" aria-label="진행률">
       <div class="progress-info">
-        <span id="questionCounter" class="counter-badge">TRACK 1 / 80</span>
+        <span id="questionCounter" class="counter-badge">TRACK 1 / 200</span>
         <span class="keyboard-guide">
           단축키: <kbd>R</kbd> 재생/일시정지 · <kbd>H</kbd> 힌트 · <kbd>Space</kbd> 정답확인 · <kbd>←</kbd><kbd>→</kbd> 이동
         </span>
