@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="가요 퀴즈" />
+  <meta name="theme-color" content="#070914" />
+  <title>K-POP & 가요 듣고 맞추기 퀴즈 · iTunes 하이라이트 챌린지</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <div class="app-container">
+    <!-- 상단 헤더 -->
+    <header class="top-header">
+      <div class="brand">
+        <span class="music-badge">🎧 iTunes API · K-POP QUIZ</span>
+        <h1>가요 도입부 · 클라이막스 듣고 맞추기</h1>
+      </div>
+
+      <div class="header-controls">
+        <div class="score-pill" title="가수와 노래 제목을 모두 맞춘 개수">
+          <span class="score-label">완벽 정답</span>
+          <strong id="correctCount">0</strong>
+        </div>
+        <button id="customArtistOpenBtn" type="button" class="icon-btn icon-btn-accent" title="iTunes에서 내가 원하는 가수 검색해서 퀴즈 만들기">
+          ➕ 가수 직접 검색·추가
+        </button>
+        <button id="shuffleBtn" type="button" class="icon-btn" title="문제 순서 랜덤 섞기">
+          🔀 랜덤 섞기
+        </button>
+        <button id="listOpenBtn" type="button" class="icon-btn" title="현재 덱 전체 곡 도감 보기">
+          💿 수록곡 도감 (<span id="modalListCount">80</span>)
+        </button>
+      </div>
+    </header>
+
+    <!-- 안내 배너 -->
+    <section class="music-fact-banner" aria-label="퀴즈 플레이 가이드">
+      <div class="fact-icon">🎵</div>
+      <p class="fact-text">
+        <strong>Apple iTunes 30초 공식 하이라이트 음원</strong>으로 즐기는 육성 노래 맞추기 퀴즈!
+        노래를 듣고 다 함께 육성으로 <strong>① 가수 이름</strong>과 <strong>② 노래 제목</strong>을 외쳐보세요!
+      </p>
+    </section>
+
+    <!-- 필터 툴바 (기본 접힘 상태: <details> 활용) -->
+    <details class="filter-details" id="filterDetails">
+      <summary class="filter-summary">
+        <span class="summary-left">
+          <span class="summary-title">⚙️ 가수 · 차트 · 문제 수 설정</span>
+          <span class="summary-hint">(클릭하여 펼치기)</span>
+        </span>
+        <span id="quizModeBadge" class="quiz-mode-badge">전체 인기곡 · 전체 80곡</span>
+      </summary>
+
+      <div class="filter-toolbar" aria-label="퀴즈 설정 필터">
+        <!-- 1) 아티스트 / 차트 카테고리 선택 -->
+        <div class="filter-row">
+          <div class="category-filter-wrapper">
+            <span class="filter-label">🎤 가수 · 차트:</span>
+            <div class="category-chips" id="categoryChips">
+              <button type="button" class="category-chip-btn active" data-category="ALL">🌟 전체 (80)</button>
+              <button type="button" class="category-chip-btn" data-category="잔나비">🎸 잔나비 (10)</button>
+              <button type="button" class="category-chip-btn" data-category="아이브">👑 아이브 (11)</button>
+              <button type="button" class="category-chip-btn" data-category="아일릿">🧲 아일릿 (7)</button>
+              <button type="button" class="category-chip-btn" data-category="에스파">⚡ 에스파 (10)</button>
+              <button type="button" class="category-chip-btn" data-category="악뮤">🍀 악뮤 (9)</button>
+              <button type="button" class="category-chip-btn" data-category="인기 아이돌">💎 인기 아이돌 (17)</button>
+              <button type="button" class="category-chip-btn" data-category="2026 차트">🔥 2025·2026 차트 (16)</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2) 문제 수 선택 -->
+        <div class="filter-row count-filter-row">
+          <div class="count-filter-wrapper">
+            <span class="filter-label">🎯 문제 수:</span>
+            <div class="count-chips" id="countChips">
+              <button type="button" class="count-chip-btn" data-count="10">10곡</button>
+              <button type="button" class="count-chip-btn" data-count="20">20곡</button>
+              <button type="button" class="count-chip-btn" data-count="30">30곡</button>
+              <button type="button" class="count-chip-btn active" data-count="ALL">전체 (<span id="totalPoolCount">80</span>곡)</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </details>
+
+    <!-- 진행 상태 바 -->
+    <section class="progress-section" aria-label="진행률">
+      <div class="progress-info">
+        <span id="questionCounter" class="counter-badge">TRACK 1 / 80</span>
+        <span class="keyboard-guide">
+          단축키: <kbd>R</kbd> 재생/일시정지 · <kbd>H</kbd> 힌트 · <kbd>Space</kbd> 정답확인 · <kbd>←</kbd><kbd>→</kbd> 이동
+        </span>
+      </div>
+      <div class="progress-bar-track">
+        <div id="progressBarFill" class="progress-bar-fill" style="width: 1.25%"></div>
+      </div>
+    </section>
+
+    <!-- 메인 퀴즈 스테이지 -->
+    <main class="quiz-stage">
+      <article class="quiz-card" id="quizCard">
+        <!-- 상단 오디오 플레이어 & 문제 제시 영역 -->
+        <div class="question-zone">
+          <div class="card-top-bar">
+            <span id="categoryBadge" class="category-tag">🔥 카테고리 힌트</span>
+            <div class="hint-step-pills" id="hintStepPills" aria-label="힌트 단계 표시">
+              <span class="step-pill" id="stepPill1">1단계: 연도·앨범·결정적 가사</span>
+              <span class="step-pill" id="stepPill2">최후 힌트: 가수·제목 초성</span>
+            </div>
+          </div>
+
+          <!-- 앨범 아트워크 & LP 바이닐 플레이어 쇼케이스 -->
+          <div class="player-showcase">
+            <div class="vinyl-stage" id="vinylStage">
+              <div class="album-cover-frame" id="albumCoverFrame">
+                <img id="albumCoverImg" src="" alt="앨범 커버 미스터리 이미지" class="album-cover-img mystery" />
+                <div class="mystery-overlay" id="mysteryOverlay">
+                  <span class="mystery-q">?</span>
+                  <span class="mystery-sub" id="mysterySubText">듣고 맞춰보세요</span>
+                </div>
+              </div>
+              <div class="vinyl-disc" id="vinylDisc" aria-hidden="true">
+                <div class="vinyl-grooves"></div>
+                <div class="vinyl-label">K-POP</div>
+              </div>
+            </div>
+
+            <!-- 오디오 컨트롤 패널 -->
+            <div class="audio-deck-panel">
+              <div class="audio-status-row">
+                <div class="audio-status-left">
+                  <div class="eq-bars" id="eqBars" aria-hidden="true">
+                    <span></span><span></span><span></span><span></span><span></span>
+                  </div>
+                  <span id="audioStatusText" class="audio-status-text">음원 준비 완료 · 버튼을 눌러 재생하세요</span>
+                </div>
+                <span id="audioTimeDisplay" class="audio-time-display">0.0s / 30.0s</span>
+              </div>
+
+              <!-- 30초 오디오 타임라인 -->
+              <div class="timeline-container" id="timelineContainer">
+                <div class="timeline-progress" id="timelineProgress" style="width: 0%"></div>
+              </div>
+
+              <!-- 심플 메인 컨트롤: 재생/일시정지 & 정지 -->
+              <div class="main-player-controls">
+                <button type="button" id="playToggleBtn" class="player-main-btn player-btn-play">
+                  <span class="player-btn-icon" id="playToggleIcon">▶️</span>
+                  <span id="playToggleLabel">노래 재생</span>
+                </button>
+
+                <button type="button" id="stopAudioBtn" class="player-main-btn player-btn-stop">
+                  <span class="player-btn-icon">⏹️</span>
+                  <span>정지 (처음으로)</span>
+                </button>
+              </div>
+
+              <!-- 볼륨 & 공식 미리듣기 링크 보조 바 -->
+              <div class="audio-aux-row">
+                <div class="volume-control">
+                  <label for="volumeSlider" class="volume-label">🔊 볼륨</label>
+                  <input type="range" id="volumeSlider" min="0" max="1" step="0.05" value="0.8" />
+                </div>
+                <a id="appleMusicLink" href="https://music.apple.com/kr" target="_blank" rel="noopener noreferrer" class="itunes-badge-link">
+                   iTunes 공식 미리듣기
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- 가수 이름 & 노래 제목 글자 타일 영역 (2열 배치 · 육성 퀴즈용) -->
+          <div class="dual-target-board">
+            <div class="target-slot-box">
+              <div class="slot-box-header">
+                <span class="target-slot-label">🎤 가수 (아티스트)</span>
+                <span class="slot-lang-badge">글자 수 힌트</span>
+              </div>
+              <div id="artistLetterSlots" class="letter-slots" aria-live="polite"></div>
+            </div>
+            <div class="target-slot-box">
+              <div class="slot-box-header">
+                <span class="target-slot-label">🎵 노래 제목</span>
+                <span id="titleLangHint" class="slot-lang-badge">최후 힌트 시 초성 공개</span>
+              </div>
+              <div id="titleLetterSlots" class="letter-slots" aria-live="polite"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 1차 힌트 영역: 발매 연도 / 수록 앨범 / 결정적 가사 힌트 -->
+        <section id="hintStage1Zone" class="hint-zone hint-stage1 hidden" aria-live="polite">
+          <div class="hint-header">
+            <span class="hint-badge">💡 1차 힌트 (발매 연도 · 앨범 · 결정적 가사)</span>
+            <span class="hint-step-tag">HINT 1 / 2</span>
+          </div>
+          <div class="hint-grid-three">
+            <div class="hint-stat-card">
+              <div class="hint-stat-icon">📅</div>
+              <div class="hint-stat-body">
+                <span class="hint-stat-label">발매 연도</span>
+                <strong id="hintReleaseYear" class="hint-stat-value">-</strong>
+              </div>
+            </div>
+            <div class="hint-stat-card">
+              <div class="hint-stat-icon">💿</div>
+              <div class="hint-stat-body">
+                <span class="hint-stat-label">수록 앨범</span>
+                <strong id="hintAlbumName" class="hint-stat-value">-</strong>
+              </div>
+            </div>
+            <div class="hint-stat-card hint-lyric-card">
+              <div class="hint-stat-icon">💬</div>
+              <div class="hint-stat-body">
+                <span class="hint-stat-label">결정적 가사 · 곡 힌트</span>
+                <strong id="hintLyricText" class="hint-stat-value lyric-quote">-</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 2차(최후) 힌트 영역: 가수 & 노래 제목 초성 공개 -->
+        <section id="hintStage2Zone" class="hint-zone hint-stage2 hidden" aria-live="polite">
+          <div class="hint-header">
+            <span class="hint-badge hint-badge-final">🔑 최후의 힌트 (가수 & 노래 제목 초성)</span>
+            <span class="hint-step-tag final">FINAL HINT 2 / 2</span>
+          </div>
+          <div class="choseong-highlight-box">
+            <div class="choseong-hint-main">
+              <span class="choseong-caption">🎵 노래 제목 초성 (한글 발음 / 이니셜)</span>
+              <strong id="hintTitleChoseong" class="choseong-big-value">ㅈㅈㅎㄴ ㅇㅇㄷㅇ ㅇㅎ</strong>
+            </div>
+            <div class="choseong-hint-sub">
+              <span class="sub-choseong-label">🎤 가수 초성:</span>
+              <strong id="hintArtistChoseong" class="sub-choseong-value">ㅈㄴㅂ</strong>
+            </div>
+          </div>
+        </section>
+
+        <!-- 정답 공개 영역 -->
+        <section id="answerZone" class="answer-zone hidden" aria-live="polite">
+          <div class="answer-card-inner">
+            <div class="answer-top-row">
+              <div class="answer-title-group">
+                <div class="answer-badges">
+                  <span id="answerStatusBadge" class="correct-tag">🎉 정답 공개</span>
+                  <span id="answerCategoryTag" class="answer-category-tag">아이브</span>
+                  <span id="answerYearTag" class="answer-year-tag">2022년 발매</span>
+                </div>
+                <div class="answer-artist-title-pair">
+                  <div>
+                    <span class="pair-caption">🎤 가수 정답</span>
+                    <h2 id="answerArtistName" class="answer-kr-name">아이브</h2>
+                    <p id="answerArtistEn" class="answer-en-name">IVE</p>
+                  </div>
+                  <div class="pair-divider"></div>
+                  <div>
+                    <span class="pair-caption">🎵 노래 제목 정답</span>
+                    <h3 id="answerSongTitle" class="answer-song-name">LOVE DIVE</h3>
+                    <p id="answerSongSub" class="answer-en-name">LOVE DIVE - Single</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="self-score-actions">
+                <button id="markCorrectBtn" class="score-check-btn" type="button">
+                  ⭕ 가수·제목 둘 다 맞췄어요! (+1)
+                </button>
+              </div>
+            </div>
+
+            <!-- 핵심 가사 & 곡 비하인드 스토리 -->
+            <div class="trivia-box">
+              <span class="trivia-icon">🎶</span>
+              <div class="trivia-content">
+                <p id="answerLyricLine" class="answer-lyric-line"></p>
+                <p id="answerTrivia" class="trivia-text"></p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 메인 액션 버튼 영역 (단계별 힌트 보기 / 정답 확인) -->
+        <div class="action-buttons-row">
+          <button id="hintBtn" type="button" class="btn btn-hint">
+            <span class="btn-icon">💡</span>
+            <span id="hintBtnText">1차 힌트 보기 (연도·앨범·결정적 가사)</span>
+          </button>
+          <button id="answerBtn" type="button" class="btn btn-answer">
+            <span class="btn-icon">🎯</span>
+            <span id="answerBtnText">정답 확인 (가수 + 노래제목)</span>
+          </button>
+        </div>
+
+        <!-- 이전 / 다음 문제 네비게이션 및 보조 토글 -->
+        <footer class="card-footer-nav">
+          <button id="prevBtn" type="button" class="nav-btn">
+            ← 이전 곡
+          </button>
+          <div class="quiz-options-group">
+            <label class="toggle-label" title="문제 이동 시 선택한 구간(예: 클라이막스 5초)을 자동으로 재생합니다">
+              <input type="checkbox" id="autoPlayToggle" checked />
+              <span>문제 이동 시 자동 재생</span>
+            </label>
+            <label class="toggle-label" title="체크하면 상단에 어느 가수/차트 카테고리인지 표시합니다">
+              <input type="checkbox" id="showCategoryToggle" checked />
+              <span>카테고리 배지 표시</span>
+            </label>
+          </div>
+          <button id="nextBtn" type="button" class="nav-btn nav-btn-primary">
+            다음 곡 →
+          </button>
+        </footer>
+      </article>
+    </main>
+  </div>
+
+  <!-- 실시간 iTunes 가수 검색 & 커스텀 퀴즈 생성 모달 -->
+  <dialog id="customArtistModal" class="app-modal" closedby="any" aria-labelledby="customArtistModalTitle">
+    <div class="modal-inner">
+      <div class="modal-header">
+        <div>
+          <h2 id="customArtistModalTitle" class="modal-title-heading">🔍 내가 원하는 가수 · 아이돌 실시간 퀴즈 만들기</h2>
+          <p class="modal-sub">가수 이름이나 그룹명을 입력하면 iTunes Search API에서 실시간으로 곡과 30초 하이라이트 음원을 가져와 퀴즈 덱을 생성합니다.</p>
+        </div>
+        <button id="closeCustomArtistBtn" type="button" class="close-modal-btn" aria-label="창 닫기">✕</button>
+      </div>
+
+      <form id="itunesLiveSearchForm" class="live-search-form" autocomplete="off">
+        <label for="itunesArtistQueryInput" class="sr-only">검색할 가수 이름</label>
+        <input
+          type="search"
+          id="itunesArtistQueryInput"
+          placeholder="가수 이름 입력 (예: 아이유, 성시경, 태연, 세븐틴, 빅뱅, 플레이브, 엔믹스...)"
+          autofocus
+        />
+        <button type="submit" id="itunesSearchSubmitBtn" class="live-search-btn">iTunes에서 곡 불러오기</button>
+      </form>
+
+      <div class="quick-artist-presets">
+        <span class="preset-label">⚡ 인기 추천 가수 원클릭 불러오기:</span>
+        <div class="preset-chips" id="presetArtistChips">
+          <button type="button" class="preset-chip" data-artist="아이유">아이유 (IU)</button>
+          <button type="button" class="preset-chip" data-artist="데이식스">데이식스 (DAY6)</button>
+          <button type="button" class="preset-chip" data-artist="세븐틴">세븐틴</button>
+          <button type="button" class="preset-chip" data-artist="태연">태연 (TAEYEON)</button>
+          <button type="button" class="preset-chip" data-artist="빅뱅">빅뱅 (BIGBANG)</button>
+          <button type="button" class="preset-chip" data-artist="성시경">성시경</button>
+          <button type="button" class="preset-chip" data-artist="폴킴">폴킴</button>
+          <button type="button" class="preset-chip" data-artist="베이비몬스터">베이비몬스터</button>
+          <button type="button" class="preset-chip" data-artist="엔믹스">엔믹스 (NMIXX)</button>
+          <button type="button" class="preset-chip" data-artist="플레이브">플레이브 (PLAVE)</button>
+          <button type="button" class="preset-chip" data-artist="레드벨벳">레드벨벳</button>
+          <button type="button" class="preset-chip" data-artist="블랙핑크">블랙핑크</button>
+        </div>
+      </div>
+
+      <p id="liveSearchStatus" class="live-search-status" aria-live="polite">
+        원하는 가수를 검색하면 대표곡 최대 25곡으로 즉시 퀴즈를 시작할 수 있습니다.
+      </p>
+    </div>
+  </dialog>
+
+  <!-- 전체 수록곡 도감 모달 -->
+  <dialog id="songListModal" class="app-modal" closedby="any" aria-labelledby="songListModalTitle">
+    <div class="modal-inner">
+      <div class="modal-header">
+        <div>
+          <h2 id="songListModalTitle" class="modal-title-heading">💿 현재 퀴즈 덱 수록곡 도감</h2>
+          <p class="modal-sub">원하는 트랙을 클릭하면 해당 문제로 바로 이동합니다. (맞추기 전에는 초성으로 표시됩니다)</p>
+        </div>
+        <button id="closeModalBtn" type="button" class="close-modal-btn" aria-label="창 닫기">✕</button>
+      </div>
+      <div class="modal-filter-bar">
+        <label for="searchSongInput" class="sr-only">수록곡 검색</label>
+        <input type="search" id="searchSongInput" placeholder="가수명, 초성(예: ㅈㄴㅂ, ㅇㅇㅂ), 맞춘 곡 제목 검색..." autofocus />
+      </div>
+      <div id="songGridList" class="song-grid-list">
+        <!-- JS로 트랙 카드 그리드 생성 -->
+      </div>
+    </div>
+  </dialog>
+
+  <!-- 퀴즈 완료 결과 모달 -->
+  <dialog id="quizResultModal" class="app-modal result-modal" closedby="any" aria-labelledby="quizResultModalTitle">
+    <div class="modal-inner result-modal-inner">
+      <div class="result-celebration">🏆</div>
+      <h2 id="quizResultModalTitle" class="result-title">K-POP 노래 맞추기 완료!</h2>
+      <p id="resultSubtitle" class="result-subtitle">선택하신 코스의 모든 트랙을 완주했습니다.</p>
+
+      <div class="result-score-card">
+        <div class="result-stat">
+          <span class="stat-label">총 트랙</span>
+          <strong id="resultTotalQuestions">10</strong>
+        </div>
+        <div class="result-stat">
+          <span class="stat-label">완벽 정답</span>
+          <strong id="resultCorrectQuestions" class="stat-highlight">8</strong>
+        </div>
+        <div class="result-stat">
+          <span class="stat-label">정답률</span>
+          <strong id="resultAccuracy">80%</strong>
+        </div>
+      </div>
+
+      <div class="result-actions">
+        <button id="restartSameDeckBtn" type="button" class="btn btn-hint" autofocus>
+          🔄 현재 코스 다시 풀기
+        </button>
+        <button id="restartNewDeckBtn" type="button" class="btn btn-answer">
+          ✨ 새로운 순서로 다시 시작
+        </button>
+        <button id="closeResultBtn" type="button" class="nav-btn">
+          창 닫기
+        </button>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="songs.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
